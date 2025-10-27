@@ -1,0 +1,5 @@
+# замени @your-username на свой ник на GitHub
+/src/greyhound_predictor/calculator.py   @your-username
+/src/greyhound_predictor/**              @your-username
+/tests/**                                @your-username
+*                                        @your-username
