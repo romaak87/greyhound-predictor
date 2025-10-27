@@ -1,0 +1,423 @@
+  {
+    "_id": {
+      "$oid": "68ff2ba915e13e8b382c52c4"
+    },
+    "distance": 476,
+    "race_date_time": {
+      "$date": {
+        "$numberLong": "1761566640000"
+      }
+    },
+    "race_time": "12:04",
+    "race_id": 2163257,
+    "race_grade": "A3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1761553309250"
+      }
+    },
+    "dogs": [
+      {
+        "trackName": "Swindon",
+        "trapNumber": 1,
+        "dogName": "Sawpit Sauvignon",
+        "form": {
+          "trackName": "Swindon",
+          "dogName": "Sawpit Sauvignon",
+          "forms": [
+            {
+              "resultRunTime": 28.920000076293945,
+              "resultDogWeight": 35.29999923706055,
+              "raceWinnersTime": 28.559999465942383,
+              "distance": 476,
+              "goingType": 10,
+              "resultPosition": 3,
+              "raceId": 2157594,
+              "trapNumber": 1,
+              "sectionalTime": 4.239999771118164,
+              "bndPos": "5444",
+              "btnDistance": "3&frac14",
+              "raceComment": "Rls,SAw",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 29.079999923706055,
+              "resultDogWeight": 35.29999923706055,
+              "raceWinnersTime": 29.18000030517578,
+              "distance": 476,
+              "goingType": -10,
+              "resultPosition": 1,
+              "raceId": 2153538,
+              "trapNumber": 2,
+              "sectionalTime": 4.329999923706055,
+              "bndPos": "2221",
+              "btnDistance": "2",
+              "raceComment": "Rls,Ld3",
+              "raceClass": "T3"
+            },
+            {
+              "resultRunTime": 15.949999809265137,
+              "resultDogWeight": 35.5,
+              "raceWinnersTime": 15.949999809265137,
+              "distance": 262,
+              "resultPosition": 1,
+              "raceId": 2152188,
+              "trapNumber": 1,
+              "bndPos": "2-2-",
+              "btnDistance": "nk",
+              "raceComment": "Rls,LdRnIn",
+              "raceClass": "T2"
+            },
+            {
+              "resultRunTime": 15.65999984741211,
+              "resultDogWeight": 36.5,
+              "raceWinnersTime": 15.65999984741211,
+              "distance": 262,
+              "raceId": 2148177,
+              "trapNumber": 1,
+              "bndPos": "",
+              "raceComment": "Rls",
+              "raceClass": "T"
+            },
+            {
+              "resultRunTime": 28.969999313354492,
+              "resultDogWeight": 35.099998474121094,
+              "raceWinnersTime": 28.260000228881836,
+              "distance": 476,
+              "goingType": 10,
+              "resultPosition": 5,
+              "raceId": 2128096,
+              "trapNumber": 1,
+              "sectionalTime": 4.230000019073486,
+              "bndPos": "5455",
+              "btnDistance": "7&frac12",
+              "raceComment": "Rls,SAw",
+              "raceClass": "A2"
+            }
+          ]
+        }
+      },
+      {
+        "trackName": "Swindon",
+        "trapNumber": 2,
+        "dogName": "No Jay No",
+        "form": {
+          "trackName": "Swindon",
+          "dogName": "No Jay No",
+          "forms": [
+            {
+              "resultRunTime": 15.970000267028809,
+              "resultDogWeight": 31.5,
+              "raceWinnersTime": 16.020000457763672,
+              "distance": 262,
+              "goingType": -5,
+              "raceId": 2160765,
+              "trapNumber": 2,
+              "bndPos": "",
+              "raceComment": "Rls",
+              "raceClass": "T"
+            },
+            {
+              "resultRunTime": 0.0,
+              "resultDogWeight": 31.0,
+              "raceWinnersTime": 28.690000534057617,
+              "distance": 476,
+              "goingType": 10,
+              "resultPosition": 6,
+              "raceId": 2158197,
+              "trapNumber": 2,
+              "sectionalTime": 4.110000133514404,
+              "bndPos": "1666",
+              "btnDistance": "dist",
+              "raceComment": "Rls,QAw,Bmp&Fell1",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 40.70000076293945,
+              "resultDogWeight": 31.0,
+              "raceWinnersTime": 39.90999984741211,
+              "distance": 660,
+              "goingType": -15,
+              "resultPosition": 3,
+              "raceId": 2156852,
+              "trapNumber": 1,
+              "sectionalTime": 13.210000038146973,
+              "bndPos": "4224",
+              "btnDistance": "11&frac34",
+              "raceComment": "EP,Rls-Mid,Handy-5,Crd",
+              "raceClass": "OR"
+            },
+            {
+              "resultRunTime": 29.110000610351562,
+              "resultDogWeight": 31.200000762939453,
+              "raceWinnersTime": 29.049999237060547,
+              "distance": 476,
+              "resultPosition": 2,
+              "raceId": 2155921,
+              "trapNumber": 2,
+              "sectionalTime": 4.03000020980835,
+              "bndPos": "1111",
+              "btnDistance": "&frac34",
+              "raceComment": "Rls,Ld-RnIn",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 28.989999771118164,
+              "resultDogWeight": 30.899999618530273,
+              "raceWinnersTime": 28.639999389648438,
+              "distance": 476,
+              "resultPosition": 3,
+              "raceId": 2155075,
+              "trapNumber": 1,
+              "sectionalTime": 4.309999942779541,
+              "bndPos": "4433",
+              "btnDistance": "4&frac14",
+              "raceComment": "Rls,SAw",
+              "raceClass": "A3"
+            }
+          ]
+        }
+      },
+      {
+        "trackName": "Swindon",
+        "trapNumber": 3,
+        "dogName": "Crannon Lady",
+        "form": {
+          "trackName": "Swindon",
+          "dogName": "Crannon Lady",
+          "forms": [
+            {
+              "resultRunTime": 28.889999389648438,
+              "resultDogWeight": 27.299999237060547,
+              "raceWinnersTime": 28.40999984741211,
+              "distance": 476,
+              "goingType": 10,
+              "resultPosition": 4,
+              "raceId": 2161038,
+              "trapNumber": 4,
+              "sectionalTime": 4.21999979019165,
+              "bndPos": "5444",
+              "btnDistance": "4&frac34",
+              "raceComment": "Mid,Bmp1",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 29.329999923706055,
+              "resultDogWeight": 27.299999237060547,
+              "raceWinnersTime": 29.0,
+              "distance": 476,
+              "resultPosition": 2,
+              "raceId": 2160279,
+              "trapNumber": 6,
+              "bndPos": "6543",
+              "btnDistance": "4",
+              "raceComment": "Mid,Crd1&4,RnOn",
+              "raceClass": "HP"
+            },
+            {
+              "resultRunTime": 29.190000534057617,
+              "resultDogWeight": 26.799999237060547,
+              "raceWinnersTime": 29.040000915527344,
+              "distance": 476,
+              "goingType": -10,
+              "resultPosition": 4,
+              "raceId": 2158820,
+              "trapNumber": 6,
+              "bndPos": "6664",
+              "btnDistance": "3",
+              "raceComment": "Mid,Crd1",
+              "raceClass": "HP"
+            },
+            {
+              "resultRunTime": 48.77000045776367,
+              "resultDogWeight": 26.200000762939453,
+              "raceWinnersTime": 47.43000030517578,
+              "distance": 750,
+              "resultPosition": 6,
+              "raceId": 2156687,
+              "trapNumber": 5,
+              "sectionalTime": 24.860000610351562,
+              "bndPos": "5555",
+              "btnDistance": "16&frac34",
+              "raceComment": "Mid,Bmp1",
+              "raceClass": "OR"
+            },
+            {
+              "resultRunTime": 0.0,
+              "resultDogWeight": 0.0,
+              "raceWinnersTime": 28.389999389648438,
+              "distance": 476,
+              "resultPosition": 18,
+              "raceId": 2155463,
+              "trapNumber": 4,
+              "bndPos": "",
+              "raceComment": "Non Arrival",
+              "raceClass": "A3"
+            }
+          ]
+        }
+      },
+      {
+        "trackName": "Swindon",
+        "trapNumber": 4,
+        "dogName": "Fifis Lad",
+        "form": {
+          "trackName": "Swindon",
+          "dogName": "Fifis Lad",
+          "forms": [
+            {
+              "resultRunTime": 29.209999084472656,
+              "resultDogWeight": 34.29999923706055,
+              "raceWinnersTime": 28.829999923706055,
+              "distance": 476,
+              "goingType": 20,
+              "resultPosition": 3,
+              "raceId": 2161673,
+              "trapNumber": 6,
+              "bndPos": "6544",
+              "btnDistance": "2&frac14",
+              "raceComment": "Mid,ClrRn",
+              "raceClass": "HP"
+            },
+            {
+              "resultRunTime": 29.100000381469727,
+              "resultDogWeight": 34.0,
+              "raceWinnersTime": 28.780000686645508,
+              "distance": 476,
+              "resultPosition": 2,
+              "raceId": 2160606,
+              "trapNumber": 6,
+              "bndPos": "6554",
+              "btnDistance": "4",
+              "raceComment": "Mid,Fcd-Ck2,RnOn",
+              "raceClass": "HP"
+            },
+            {
+              "resultRunTime": 29.290000915527344,
+              "resultDogWeight": 34.29999923706055,
+              "raceWinnersTime": 28.690000534057617,
+              "distance": 476,
+              "resultPosition": 6,
+              "raceId": 2159571,
+              "trapNumber": 4,
+              "sectionalTime": 4.170000076293945,
+              "bndPos": "4555",
+              "btnDistance": "7&frac12",
+              "raceComment": "Mid,Bmp1",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 28.959999084472656,
+              "resultDogWeight": 34.5,
+              "raceWinnersTime": 28.420000076293945,
+              "distance": 476,
+              "goingType": 20,
+              "resultPosition": 3,
+              "raceId": 2159048,
+              "trapNumber": 4,
+              "sectionalTime": 4.119999885559082,
+              "bndPos": "4444",
+              "btnDistance": "4&frac14",
+              "raceComment": "Mid,Bmp1",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 28.940000534057617,
+              "resultDogWeight": 34.0,
+              "raceWinnersTime": 28.790000915527344,
+              "distance": 476,
+              "resultPosition": 4,
+              "raceId": 2157787,
+              "trapNumber": 6,
+              "sectionalTime": 4.139999866485596,
+              "bndPos": "5444",
+              "btnDistance": "1&frac34",
+              "raceComment": "Mid,Crd4",
+              "raceClass": "A3"
+            }
+          ]
+        }
+      },
+      {
+        "trackName": "Swindon",
+        "trapNumber": 5,
+        "dogName": "Dupalight Boy",
+        "form": {
+          "trackName": "Swindon",
+          "dogName": "Dupalight Boy",
+          "forms": [
+            {
+              "resultRunTime": 29.030000686645508,
+              "resultDogWeight": 32.70000076293945,
+              "raceWinnersTime": 28.780000686645508,
+              "distance": 476,
+              "resultPosition": 5,
+              "raceId": 2162009,
+              "trapNumber": 6,
+              "sectionalTime": 4.110000133514404,
+              "bndPos": "4322",
+              "btnDistance": "3",
+              "raceComment": "W,Handy- VW4",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 28.760000228881836,
+              "resultDogWeight": 33.0,
+              "raceWinnersTime": 28.559999465942383,
+              "distance": 476,
+              "goingType": 20,
+              "resultPosition": 1,
+              "raceId": 2161043,
+              "trapNumber": 5,
+              "sectionalTime": 4.03000020980835,
+              "bndPos": "3111",
+              "btnDistance": "2&frac14",
+              "raceComment": "W,SnLd",
+              "raceClass": "A3"
+            },
+            {
+              "resultRunTime": 15.739999771118164,
+              "resultDogWeight": 32.599998474121094,
+              "raceWinnersTime": 15.670000076293945,
+              "distance": 262,
+              "resultPosition": 3,
+              "raceId": 2160281,
+              "trapNumber": 5,
+              "bndPos": "3-2-",
+              "btnDistance": "&frac34",
+              "raceComment": "W,ClrRn",
+              "raceClass": "D2"
+            },
+            {
+              "resultRunTime": 15.630000114440918,
+              "resultDogWeight": 32.400001525878906,
+              "raceWinnersTime": 15.600000381469727,
+              "distance": 262,
+              "resultPosition": 2,
+              "raceId": 2159158,
+              "trapNumber": 6,
+              "bndPos": "3-3-",
+              "btnDistance": "nk",
+              "raceComment": "W,RnOn",
+              "raceClass": "D2"
+            },
+            {
+              "resultRunTime": 28.81999969482422,
+              "resultDogWeight": 32.79999923706055,
+              "raceWinnersTime": 28.690000534057617,
+              "distance": 476,
+              "goingType": 10,
+              "resultPosition": 2,
+              "raceId": 2158197,
+              "trapNumber": 5,
+              "sectionalTime": 4.079999923706055,
+              "bndPos": "4111",
+              "btnDistance": "nk",
+              "raceComment": "W,QAw,SnLd-RnIn",
+              "raceClass": "A3"
+            }
+          ]
+        }
+      }
+    ]
+  }
