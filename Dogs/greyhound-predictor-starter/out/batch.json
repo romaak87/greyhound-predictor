@@ -1,0 +1,4745 @@
+{
+  "batch": [
+    {
+      "file": "examples/cards_multi.json",
+      "index": 0,
+      "predictions": [
+        {
+          "dogName": "Hut Fitter",
+          "raw_score": 5.2743,
+          "percentage": 46.2,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Greenhill Patch",
+          "raw_score": 5.2243,
+          "percentage": 43.9,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Offshore Dazl",
+          "raw_score": 3.1243,
+          "percentage": 4.9,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Coologue Gonzo",
+          "raw_score": 2.9364,
+          "percentage": 4.0,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Use The Clock",
+          "raw_score": 1.0829,
+          "percentage": 0.5,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Diddly Squat",
+          "raw_score": 1.0364,
+          "percentage": 0.5,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.070000171661377,
+        "pre_check": [
+          {
+            "dogName": "Coologue Gonzo",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Hut Fitter",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Use The Clock",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Diddly Squat",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Offshore Dazl",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Greenhill Patch",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Coologue Gonzo": 2.9364,
+          "Hut Fitter": 5.2743,
+          "Use The Clock": 1.0829,
+          "Diddly Squat": 1.0364,
+          "Offshore Dazl": 3.1243,
+          "Greenhill Patch": 5.2243
+        },
+        "base_scores_trace": {
+          "Coologue Gonzo": 0.0814,
+          "Hut Fitter": 2.4643,
+          "Use The Clock": 0.0229,
+          "Diddly Squat": 1.0614,
+          "Offshore Dazl": 1.0243,
+          "Greenhill Patch": 2.6243
+        },
+        "bda_modes": {
+          "Coologue Gonzo": "STD_NO_DATE_CUR",
+          "Hut Fitter": "STD_NO_DATE_CUR",
+          "Use The Clock": "STD_NO_DATE_CUR",
+          "Diddly Squat": "STD_NO_DATE_CUR",
+          "Offshore Dazl": "STD_NO_DATE_CUR",
+          "Greenhill Patch": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Coologue Gonzo": false,
+          "Hut Fitter": false,
+          "Use The Clock": false,
+          "Diddly Squat": false,
+          "Offshore Dazl": true,
+          "Greenhill Patch": false
+        },
+        "neg_start_L1": {
+          "Coologue Gonzo": false,
+          "Hut Fitter": false,
+          "Use The Clock": false,
+          "Diddly Squat": false,
+          "Offshore Dazl": false,
+          "Greenhill Patch": false
+        },
+        "styles": {
+          "Coologue Gonzo": "rails",
+          "Hut Fitter": "mid",
+          "Use The Clock": "rails",
+          "Diddly Squat": "mid",
+          "Offshore Dazl": "mid",
+          "Greenhill Patch": "wide"
+        },
+        "trouble_cap_totals": {
+          "Coologue Gonzo": -0.065,
+          "Hut Fitter": 0.0,
+          "Use The Clock": -1.12,
+          "Diddly Squat": -0.025,
+          "Offshore Dazl": -0.92,
+          "Greenhill Patch": 0.0
+        },
+        "bonus_cap_totals": {
+          "Coologue Gonzo": 0.92,
+          "Hut Fitter": 2.36,
+          "Use The Clock": 0.48,
+          "Diddly Squat": 0.0,
+          "Offshore Dazl": 1.32,
+          "Greenhill Patch": 0.6
+        },
+        "trace_hash": "c8924b19469c0cd1198d12d20d0bc973dad33f86fd5244a5602654e9b0d7dfe9"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 1,
+      "predictions": [
+        {
+          "dogName": "Sir Gazza",
+          "raw_score": 5.38,
+          "percentage": 46.6,
+          "rank": 1,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Heflewanocean",
+          "raw_score": 5.3757,
+          "percentage": 46.5,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Starshinesweetie",
+          "raw_score": 2.845,
+          "percentage": 3.4,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Bonnies Legacy",
+          "raw_score": 2.6443,
+          "percentage": 2.7,
+          "rank": 4,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Orchid Kingdom",
+          "raw_score": 1.1421,
+          "percentage": 0.5,
+          "rank": 5,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Faiths Memory",
+          "raw_score": 0.6307,
+          "percentage": 0.3,
+          "rank": 6,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.380000114440918,
+        "pre_check": [
+          {
+            "dogName": "Sir Gazza",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Faiths Memory",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Orchid Kingdom",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Bonnies Legacy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Heflewanocean",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Starshinesweetie",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Sir Gazza": 5.38,
+          "Faiths Memory": 0.6307,
+          "Orchid Kingdom": 1.1421,
+          "Bonnies Legacy": 2.6443,
+          "Heflewanocean": 5.3757,
+          "Starshinesweetie": 2.845
+        },
+        "base_scores_trace": {
+          "Sir Gazza": 3.86,
+          "Faiths Memory": -0.7543,
+          "Orchid Kingdom": 1.0971,
+          "Bonnies Legacy": 2.1943,
+          "Heflewanocean": 1.3857,
+          "Starshinesweetie": 0.41
+        },
+        "bda_modes": {
+          "Sir Gazza": "STD_NO_DATE_CUR",
+          "Faiths Memory": "STD_NO_DATE_CUR",
+          "Orchid Kingdom": "STD_NO_DATE_CUR",
+          "Bonnies Legacy": "STD_NO_DATE_CUR",
+          "Heflewanocean": "STD_NO_DATE_CUR",
+          "Starshinesweetie": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Sir Gazza": true,
+          "Faiths Memory": false,
+          "Orchid Kingdom": false,
+          "Bonnies Legacy": false,
+          "Heflewanocean": false,
+          "Starshinesweetie": true
+        },
+        "neg_start_L1": {
+          "Sir Gazza": false,
+          "Faiths Memory": false,
+          "Orchid Kingdom": false,
+          "Bonnies Legacy": false,
+          "Heflewanocean": false,
+          "Starshinesweetie": false
+        },
+        "styles": {
+          "Sir Gazza": "rails",
+          "Faiths Memory": "rails",
+          "Orchid Kingdom": "rails",
+          "Bonnies Legacy": "wide",
+          "Heflewanocean": "wide",
+          "Starshinesweetie": "wide"
+        },
+        "trouble_cap_totals": {
+          "Sir Gazza": -0.06,
+          "Faiths Memory": -0.035,
+          "Orchid Kingdom": -0.035,
+          "Bonnies Legacy": -0.07,
+          "Heflewanocean": -0.04,
+          "Starshinesweetie": -0.015
+        },
+        "bonus_cap_totals": {
+          "Sir Gazza": 1.28,
+          "Faiths Memory": 1.12,
+          "Orchid Kingdom": 0.08,
+          "Bonnies Legacy": 0.52,
+          "Heflewanocean": 2.28,
+          "Starshinesweetie": 2.4
+        },
+        "trace_hash": "23147f42a8b463043d3916d92604450c786d2d4922fd2e0e4aa1cf75f546ff7a"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 2,
+      "predictions": [
+        {
+          "dogName": "Grovenor Sophie",
+          "raw_score": 6.2143,
+          "percentage": 45.0,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Vale Sky",
+          "raw_score": 6.0214,
+          "percentage": 37.1,
+          "rank": 2,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Velardi",
+          "raw_score": 5.1693,
+          "percentage": 14.4,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Swift Qay",
+          "raw_score": 3.6371,
+          "percentage": 3.1,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Grovenor Albie",
+          "raw_score": 1.2836,
+          "percentage": 0.2,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Killieford Kayla",
+          "raw_score": 1.0071,
+          "percentage": 0.2,
+          "rank": 6,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.360000133514404,
+        "pre_check": [
+          {
+            "dogName": "Grovenor Sophie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Velardi",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Grovenor Albie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Vale Sky",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Killieford Kayla",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Swift Qay",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Grovenor Sophie": 6.2143,
+          "Velardi": 5.1693,
+          "Grovenor Albie": 1.2836,
+          "Vale Sky": 6.0214,
+          "Killieford Kayla": 1.0071,
+          "Swift Qay": 3.6371
+        },
+        "base_scores_trace": {
+          "Grovenor Sophie": 1.2343,
+          "Velardi": 2.0493,
+          "Grovenor Albie": 1.8786,
+          "Vale Sky": 2.9914,
+          "Killieford Kayla": 1.9271,
+          "Swift Qay": 1.0171
+        },
+        "bda_modes": {
+          "Grovenor Sophie": "STD_NO_DATE_CUR",
+          "Velardi": "STD_NO_DATE_CUR",
+          "Grovenor Albie": "STD_NO_DATE_CUR",
+          "Vale Sky": "STD_NO_DATE_CUR",
+          "Killieford Kayla": "STD_NO_DATE_CUR",
+          "Swift Qay": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Grovenor Sophie": true,
+          "Velardi": false,
+          "Grovenor Albie": false,
+          "Vale Sky": true,
+          "Killieford Kayla": false,
+          "Swift Qay": true
+        },
+        "neg_start_L1": {
+          "Grovenor Sophie": false,
+          "Velardi": false,
+          "Grovenor Albie": false,
+          "Vale Sky": false,
+          "Killieford Kayla": true,
+          "Swift Qay": false
+        },
+        "styles": {
+          "Grovenor Sophie": "mid",
+          "Velardi": "rails",
+          "Grovenor Albie": "mid",
+          "Vale Sky": "mid",
+          "Killieford Kayla": "mid",
+          "Swift Qay": "mid"
+        },
+        "trouble_cap_totals": {
+          "Grovenor Sophie": 0.0,
+          "Velardi": -0.65,
+          "Grovenor Albie": -1.445,
+          "Vale Sky": -0.03,
+          "Killieford Kayla": -1.0,
+          "Swift Qay": -0.07
+        },
+        "bonus_cap_totals": {
+          "Grovenor Sophie": 3.28,
+          "Velardi": 1.77,
+          "Grovenor Albie": 0.4,
+          "Vale Sky": 3.06,
+          "Killieford Kayla": 0.08,
+          "Swift Qay": 2.24
+        },
+        "trace_hash": "fe3ab55072694478c647def108e1886968397c0ccafd485c797a9cc632136c2a"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 3,
+      "predictions": [
+        {
+          "dogName": "Keepers Notgrove",
+          "raw_score": 2.1636,
+          "percentage": 50.8,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Tommys Birdy",
+          "raw_score": 1.615,
+          "percentage": 26.7,
+          "rank": 2,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Newinn Chancer",
+          "raw_score": 0.9536,
+          "percentage": 13.8,
+          "rank": 3,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Nolas Bigfoot",
+          "raw_score": 0.2829,
+          "percentage": 7.1,
+          "rank": 4,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Boswellion",
+          "raw_score": -0.9507,
+          "percentage": 1.6,
+          "rank": 5,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.085000038146973,
+        "pre_check": [
+          {
+            "dogName": "Nolas Bigfoot",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Boswellion",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Newinn Chancer",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Tommys Birdy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Keepers Notgrove",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Nolas Bigfoot": 0.2829,
+          "Boswellion": -0.9507,
+          "Newinn Chancer": 0.9536,
+          "Tommys Birdy": 1.615,
+          "Keepers Notgrove": 2.1636
+        },
+        "base_scores_trace": {
+          "Nolas Bigfoot": 0.1329,
+          "Boswellion": 0.8743,
+          "Newinn Chancer": 1.8236,
+          "Tommys Birdy": 2.42,
+          "Keepers Notgrove": 0.6686
+        },
+        "bda_modes": {
+          "Nolas Bigfoot": "STD_NO_DATE_CUR",
+          "Boswellion": "STD_NO_DATE_CUR",
+          "Newinn Chancer": "STD_NO_DATE_CUR",
+          "Tommys Birdy": "STD_NO_DATE_CUR",
+          "Keepers Notgrove": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Nolas Bigfoot": false,
+          "Boswellion": false,
+          "Newinn Chancer": false,
+          "Tommys Birdy": false,
+          "Keepers Notgrove": false
+        },
+        "neg_start_L1": {
+          "Nolas Bigfoot": true,
+          "Boswellion": true,
+          "Newinn Chancer": false,
+          "Tommys Birdy": false,
+          "Keepers Notgrove": false
+        },
+        "styles": {
+          "Nolas Bigfoot": "rails",
+          "Boswellion": "mid",
+          "Newinn Chancer": "mid",
+          "Tommys Birdy": "mid",
+          "Keepers Notgrove": "wide"
+        },
+        "trouble_cap_totals": {
+          "Nolas Bigfoot": -1.35,
+          "Boswellion": -1.055,
+          "Newinn Chancer": -1.15,
+          "Tommys Birdy": -1.045,
+          "Keepers Notgrove": -1.185
+        },
+        "bonus_cap_totals": {
+          "Nolas Bigfoot": 1.2,
+          "Boswellion": 0.48,
+          "Newinn Chancer": 0.28,
+          "Tommys Birdy": 0.24,
+          "Keepers Notgrove": 0.68
+        },
+        "trace_hash": "37e83c335030f54016a8e6065a5e20e8efe4e177177c7ca8e0e174afbeab9ef6"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 4,
+      "predictions": [
+        {
+          "dogName": "Klassy Sharlene",
+          "raw_score": 6.0407,
+          "percentage": 47.6,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Swift Olivia",
+          "raw_score": 5.6186,
+          "percentage": 31.2,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Hitthebottleneil",
+          "raw_score": 4.8921,
+          "percentage": 13.7,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Beaming Elle",
+          "raw_score": 4.1071,
+          "percentage": 6.3,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Sambar Googoo",
+          "raw_score": 2.555,
+          "percentage": 1.1,
+          "rank": 5,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Mossrich Shan",
+          "raw_score": 0.0,
+          "percentage": 0.1,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.139999866485596,
+        "pre_check": [
+          {
+            "dogName": "Swift Olivia",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Beaming Elle",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Mossrich Shan",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Sambar Googoo",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Klassy Sharlene",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Hitthebottleneil",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Swift Olivia": 5.6186,
+          "Beaming Elle": 4.1071,
+          "Mossrich Shan": 0.0,
+          "Sambar Googoo": 2.555,
+          "Klassy Sharlene": 6.0407,
+          "Hitthebottleneil": 4.8921
+        },
+        "base_scores_trace": {
+          "Swift Olivia": 0.8786,
+          "Beaming Elle": 0.5171,
+          "Mossrich Shan": 0.0,
+          "Sambar Googoo": 1.37,
+          "Klassy Sharlene": 2.7057,
+          "Hitthebottleneil": 1.7071
+        },
+        "bda_modes": {
+          "Swift Olivia": "STD_NO_DATE_CUR",
+          "Beaming Elle": "STD_NO_DATE_CUR",
+          "Mossrich Shan": "ESC_DIST_CUR",
+          "Sambar Googoo": "STD_NO_DATE_CUR",
+          "Klassy Sharlene": "STD_NO_DATE_CUR",
+          "Hitthebottleneil": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Swift Olivia": false,
+          "Beaming Elle": false,
+          "Mossrich Shan": false,
+          "Sambar Googoo": false,
+          "Klassy Sharlene": false,
+          "Hitthebottleneil": false
+        },
+        "neg_start_L1": {
+          "Swift Olivia": false,
+          "Beaming Elle": false,
+          "Mossrich Shan": false,
+          "Sambar Googoo": false,
+          "Klassy Sharlene": false,
+          "Hitthebottleneil": false
+        },
+        "styles": {
+          "Swift Olivia": "rails",
+          "Beaming Elle": "rails",
+          "Mossrich Shan": "rails",
+          "Sambar Googoo": "rails",
+          "Klassy Sharlene": "wide",
+          "Hitthebottleneil": "wide"
+        },
+        "trouble_cap_totals": {
+          "Swift Olivia": -0.06,
+          "Beaming Elle": -0.01,
+          "Mossrich Shan": 0.0,
+          "Sambar Googoo": -0.015,
+          "Klassy Sharlene": -0.825,
+          "Hitthebottleneil": -0.015
+        },
+        "bonus_cap_totals": {
+          "Swift Olivia": 2.8,
+          "Beaming Elle": 1.6,
+          "Mossrich Shan": 0.0,
+          "Sambar Googoo": 1.2,
+          "Klassy Sharlene": 2.41,
+          "Hitthebottleneil": 1.2
+        },
+        "trace_hash": "cc9e6b807353c36da6bd103328944c48deb26999c416ee62b26dc5507dd3ec7a"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 5,
+      "predictions": [
+        {
+          "dogName": "Clay Gouvner",
+          "raw_score": 6.5014,
+          "percentage": 47.7,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Madam Tiger",
+          "raw_score": 5.9543,
+          "percentage": 27.6,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Ballymacken Spot",
+          "raw_score": 5.7743,
+          "percentage": 23.0,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Markstreet Barry",
+          "raw_score": 3.09,
+          "percentage": 1.1,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Ballymac Estelle",
+          "raw_score": 2.2193,
+          "percentage": 0.5,
+          "rank": 5,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Star Bono",
+          "raw_score": 0.9914,
+          "percentage": 0.1,
+          "rank": 6,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.449999809265137,
+        "pre_check": [
+          {
+            "dogName": "Markstreet Barry",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Star Bono",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Clay Gouvner",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Ballymacken Spot",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Madam Tiger",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Ballymac Estelle",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Markstreet Barry": 3.09,
+          "Star Bono": 0.9914,
+          "Clay Gouvner": 6.5014,
+          "Ballymacken Spot": 5.7743,
+          "Madam Tiger": 5.9543,
+          "Ballymac Estelle": 2.2193
+        },
+        "base_scores_trace": {
+          "Markstreet Barry": -0.02,
+          "Star Bono": 2.0214,
+          "Clay Gouvner": 3.1214,
+          "Ballymacken Spot": 1.3743,
+          "Madam Tiger": 2.0743,
+          "Ballymac Estelle": 0.3393
+        },
+        "bda_modes": {
+          "Markstreet Barry": "ESC_DIST_CUR",
+          "Star Bono": "STD_NO_DATE_CUR",
+          "Clay Gouvner": "STD_NO_DATE_CUR",
+          "Ballymacken Spot": "STD_NO_DATE_CUR",
+          "Madam Tiger": "STD_NO_DATE_CUR",
+          "Ballymac Estelle": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Markstreet Barry": true,
+          "Star Bono": false,
+          "Clay Gouvner": false,
+          "Ballymacken Spot": true,
+          "Madam Tiger": true,
+          "Ballymac Estelle": false
+        },
+        "neg_start_L1": {
+          "Markstreet Barry": false,
+          "Star Bono": true,
+          "Clay Gouvner": false,
+          "Ballymacken Spot": false,
+          "Madam Tiger": false,
+          "Ballymac Estelle": false
+        },
+        "styles": {
+          "Markstreet Barry": "rails",
+          "Star Bono": "rails",
+          "Clay Gouvner": "mid",
+          "Ballymacken Spot": "mid",
+          "Madam Tiger": "mid",
+          "Ballymac Estelle": "mid"
+        },
+        "trouble_cap_totals": {
+          "Markstreet Barry": 0.0,
+          "Star Bono": -1.33,
+          "Clay Gouvner": 0.0,
+          "Ballymacken Spot": -0.15,
+          "Madam Tiger": -0.1,
+          "Ballymac Estelle": 0.0
+        },
+        "bonus_cap_totals": {
+          "Markstreet Barry": 2.36,
+          "Star Bono": 0.0,
+          "Clay Gouvner": 1.68,
+          "Ballymacken Spot": 2.85,
+          "Madam Tiger": 2.28,
+          "Ballymac Estelle": 1.88
+        },
+        "trace_hash": "936a19c149b8835456766ade5940193cccb398f8018d4f13e60e41c293d02a12"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 6,
+      "predictions": [
+        {
+          "dogName": "Instrumentalist",
+          "raw_score": 5.5421,
+          "percentage": 78.3,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Another Tommy",
+          "raw_score": 3.8036,
+          "percentage": 12.5,
+          "rank": 2,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Miss Winehouse",
+          "raw_score": 3.1793,
+          "percentage": 6.7,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Samrose Taylor",
+          "raw_score": 2.3393,
+          "percentage": 2.3,
+          "rank": 4,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Charlies Girl",
+          "raw_score": -0.2143,
+          "percentage": 0.2,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.46999979019165,
+        "pre_check": [
+          {
+            "dogName": "Another Tommy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Instrumentalist",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Samrose Taylor",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Miss Winehouse",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Charlies Girl",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Another Tommy": 3.8036,
+          "Instrumentalist": 5.5421,
+          "Samrose Taylor": 2.3393,
+          "Miss Winehouse": 3.1793,
+          "Charlies Girl": -0.2143
+        },
+        "base_scores_trace": {
+          "Another Tommy": 2.3686,
+          "Instrumentalist": 3.4771,
+          "Samrose Taylor": 1.3943,
+          "Miss Winehouse": 1.0543,
+          "Charlies Girl": -0.6643
+        },
+        "bda_modes": {
+          "Another Tommy": "STD_NO_DATE_CUR",
+          "Instrumentalist": "STD_NO_DATE_CUR",
+          "Samrose Taylor": "STD_NO_DATE_CUR",
+          "Miss Winehouse": "STD_NO_DATE_CUR",
+          "Charlies Girl": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Another Tommy": false,
+          "Instrumentalist": false,
+          "Samrose Taylor": true,
+          "Miss Winehouse": false,
+          "Charlies Girl": false
+        },
+        "neg_start_L1": {
+          "Another Tommy": false,
+          "Instrumentalist": false,
+          "Samrose Taylor": false,
+          "Miss Winehouse": false,
+          "Charlies Girl": false
+        },
+        "styles": {
+          "Another Tommy": "rails",
+          "Instrumentalist": "wide",
+          "Samrose Taylor": "mid",
+          "Miss Winehouse": "wide",
+          "Charlies Girl": "wide"
+        },
+        "trouble_cap_totals": {
+          "Another Tommy": -0.065,
+          "Instrumentalist": -0.035,
+          "Samrose Taylor": -0.015,
+          "Miss Winehouse": -0.025,
+          "Charlies Girl": 0.0
+        },
+        "bonus_cap_totals": {
+          "Another Tommy": 1.2,
+          "Instrumentalist": 0.4,
+          "Samrose Taylor": 0.96,
+          "Miss Winehouse": 0.4,
+          "Charlies Girl": 0.4
+        },
+        "trace_hash": "9f7360087ec44c34c30dce25a91f13f2cf93d8d091581435edecbe640d317f46"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 7,
+      "predictions": [
+        {
+          "dogName": "Churchill Boy",
+          "raw_score": 7.3929,
+          "percentage": 83.9,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Annadown Guggy",
+          "raw_score": 5.5714,
+          "percentage": 13.6,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Glideaway Fever",
+          "raw_score": 3.67,
+          "percentage": 1.8,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Proper Sandy",
+          "raw_score": 2.8493,
+          "percentage": 0.6,
+          "rank": 4,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Swift Dirty",
+          "raw_score": 0.49,
+          "percentage": 0.1,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.119999885559082,
+        "pre_check": [
+          {
+            "dogName": "Churchill Boy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Swift Dirty",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Glideaway Fever",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Proper Sandy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Annadown Guggy",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Churchill Boy": 7.3929,
+          "Swift Dirty": 0.49,
+          "Glideaway Fever": 3.67,
+          "Proper Sandy": 2.8493,
+          "Annadown Guggy": 5.5714
+        },
+        "base_scores_trace": {
+          "Churchill Boy": 2.7129,
+          "Swift Dirty": 1.19,
+          "Glideaway Fever": 1.76,
+          "Proper Sandy": 1.4843,
+          "Annadown Guggy": 1.0214
+        },
+        "bda_modes": {
+          "Churchill Boy": "STD_NO_DATE_CUR",
+          "Swift Dirty": "STD_NO_DATE_CUR",
+          "Glideaway Fever": "STD_NO_DATE_CUR",
+          "Proper Sandy": "STD_NO_DATE_CUR",
+          "Annadown Guggy": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Churchill Boy": false,
+          "Swift Dirty": false,
+          "Glideaway Fever": false,
+          "Proper Sandy": true,
+          "Annadown Guggy": true
+        },
+        "neg_start_L1": {
+          "Churchill Boy": true,
+          "Swift Dirty": false,
+          "Glideaway Fever": false,
+          "Proper Sandy": false,
+          "Annadown Guggy": false
+        },
+        "styles": {
+          "Churchill Boy": "rails",
+          "Swift Dirty": "rails",
+          "Glideaway Fever": "rails",
+          "Proper Sandy": "mid",
+          "Annadown Guggy": "wide"
+        },
+        "trouble_cap_totals": {
+          "Churchill Boy": 0.0,
+          "Swift Dirty": -1.12,
+          "Glideaway Fever": -1.39,
+          "Proper Sandy": -0.995,
+          "Annadown Guggy": -0.05
+        },
+        "bonus_cap_totals": {
+          "Churchill Boy": 2.68,
+          "Swift Dirty": 0.12,
+          "Glideaway Fever": 1.6,
+          "Proper Sandy": 2.36,
+          "Annadown Guggy": 2.6
+        },
+        "trace_hash": "25c6246ae9a86e29e383319cbe7c0b6e11db7f3718a2df388e516fc426eaafaf"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 8,
+      "predictions": [
+        {
+          "dogName": "Blitz Hurricane",
+          "raw_score": 7.8007,
+          "percentage": 60.7,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Front Milo",
+          "raw_score": 7.2843,
+          "percentage": 36.2,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Shockwave Sekani",
+          "raw_score": 4.3979,
+          "percentage": 1.8,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Badminton Debbie",
+          "raw_score": 3.72,
+          "percentage": 0.9,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Coolemore Azzabi",
+          "raw_score": 2.9564,
+          "percentage": 0.4,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 4.980000019073486,
+        "pre_check": [
+          {
+            "dogName": "Shockwave Sekani",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Coolemore Azzabi",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Badminton Debbie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Blitz Hurricane",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Front Milo",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Shockwave Sekani": 4.3979,
+          "Coolemore Azzabi": 2.9564,
+          "Badminton Debbie": 3.72,
+          "Blitz Hurricane": 7.8007,
+          "Front Milo": 7.2843
+        },
+        "base_scores_trace": {
+          "Shockwave Sekani": 2.0629,
+          "Coolemore Azzabi": 2.2264,
+          "Badminton Debbie": 1.83,
+          "Blitz Hurricane": 2.5157,
+          "Front Milo": 2.5843
+        },
+        "bda_modes": {
+          "Shockwave Sekani": "STD_NO_DATE_CUR",
+          "Coolemore Azzabi": "STD_NO_DATE_CUR",
+          "Badminton Debbie": "STD_NO_DATE_CUR",
+          "Blitz Hurricane": "STD_NO_DATE_CUR",
+          "Front Milo": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Shockwave Sekani": false,
+          "Coolemore Azzabi": true,
+          "Badminton Debbie": false,
+          "Blitz Hurricane": true,
+          "Front Milo": true
+        },
+        "neg_start_L1": {
+          "Shockwave Sekani": false,
+          "Coolemore Azzabi": false,
+          "Badminton Debbie": false,
+          "Blitz Hurricane": false,
+          "Front Milo": false
+        },
+        "styles": {
+          "Shockwave Sekani": "mid",
+          "Coolemore Azzabi": "rails",
+          "Badminton Debbie": "mid",
+          "Blitz Hurricane": "mid",
+          "Front Milo": "mid"
+        },
+        "trouble_cap_totals": {
+          "Shockwave Sekani": -1.245,
+          "Coolemore Azzabi": -1.22,
+          "Badminton Debbie": -0.93,
+          "Blitz Hurricane": -0.095,
+          "Front Milo": 0.0
+        },
+        "bonus_cap_totals": {
+          "Shockwave Sekani": 1.88,
+          "Coolemore Azzabi": 1.65,
+          "Badminton Debbie": 1.12,
+          "Blitz Hurricane": 3.68,
+          "Front Milo": 3.0
+        },
+        "trace_hash": "2b96d8c267f4b20fcf7d0a952b8de0d0d110853ecdde23a7337a25f2df334531"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 9,
+      "predictions": [
+        {
+          "dogName": "Effernogue Snowy",
+          "raw_score": 6.3129,
+          "percentage": 48.4,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Rockmount Nellie",
+          "raw_score": 5.9886,
+          "percentage": 35.0,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Great Pet",
+          "raw_score": 4.9579,
+          "percentage": 11.3,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Loli Pop Jamstyx",
+          "raw_score": 3.4936,
+          "percentage": 2.6,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Romantic Jack",
+          "raw_score": 3.4793,
+          "percentage": 2.6,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Alfies Lad",
+          "raw_score": 0.31,
+          "percentage": 0.1,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.269999980926514,
+        "pre_check": [
+          {
+            "dogName": "Effernogue Snowy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Loli Pop Jamstyx",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Alfies Lad",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Rockmount Nellie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Great Pet",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Romantic Jack",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Effernogue Snowy": 6.3129,
+          "Loli Pop Jamstyx": 3.4936,
+          "Alfies Lad": 0.31,
+          "Rockmount Nellie": 5.9886,
+          "Great Pet": 4.9579,
+          "Romantic Jack": 3.4793
+        },
+        "base_scores_trace": {
+          "Effernogue Snowy": 0.5229,
+          "Loli Pop Jamstyx": 0.4886,
+          "Alfies Lad": 0.58,
+          "Rockmount Nellie": 2.2886,
+          "Great Pet": 1.2629,
+          "Romantic Jack": 2.0243
+        },
+        "bda_modes": {
+          "Effernogue Snowy": "STD_NO_DATE_CUR",
+          "Loli Pop Jamstyx": "STD_NO_DATE_CUR",
+          "Alfies Lad": "STD_NO_DATE_CUR",
+          "Rockmount Nellie": "STD_NO_DATE_CUR",
+          "Great Pet": "STD_NO_DATE_CUR",
+          "Romantic Jack": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Effernogue Snowy": true,
+          "Loli Pop Jamstyx": false,
+          "Alfies Lad": false,
+          "Rockmount Nellie": false,
+          "Great Pet": false,
+          "Romantic Jack": false
+        },
+        "neg_start_L1": {
+          "Effernogue Snowy": false,
+          "Loli Pop Jamstyx": false,
+          "Alfies Lad": false,
+          "Rockmount Nellie": false,
+          "Great Pet": false,
+          "Romantic Jack": false
+        },
+        "styles": {
+          "Effernogue Snowy": "rails",
+          "Loli Pop Jamstyx": "rails",
+          "Alfies Lad": "mid",
+          "Rockmount Nellie": "wide",
+          "Great Pet": "wide",
+          "Romantic Jack": "wide"
+        },
+        "trouble_cap_totals": {
+          "Effernogue Snowy": -0.01,
+          "Loli Pop Jamstyx": -0.035,
+          "Alfies Lad": -1.0,
+          "Rockmount Nellie": 0.0,
+          "Great Pet": -0.015,
+          "Romantic Jack": -0.075
+        },
+        "bonus_cap_totals": {
+          "Effernogue Snowy": 3.8,
+          "Loli Pop Jamstyx": 1.04,
+          "Alfies Lad": 0.73,
+          "Rockmount Nellie": 2.0,
+          "Great Pet": 1.96,
+          "Romantic Jack": 1.48
+        },
+        "trace_hash": "2c05b8b3a3d83263780e0e26544a9c2af83de531c1dcabad5806dbd33696e8f0"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 10,
+      "predictions": [
+        {
+          "dogName": "Roanna Ash",
+          "raw_score": 7.0207,
+          "percentage": 60.8,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Blackfriars Buzz",
+          "raw_score": 6.5407,
+          "percentage": 37.6,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Cape Island",
+          "raw_score": 2.4114,
+          "percentage": 0.6,
+          "rank": 3,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Swift Serena",
+          "raw_score": 2.3529,
+          "percentage": 0.5,
+          "rank": 4,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Platinum Record",
+          "raw_score": 2.2693,
+          "percentage": 0.5,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MISMATCH",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Grangeview Dream",
+          "raw_score": -1.005,
+          "percentage": 0.0,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.119999885559082,
+        "pre_check": [
+          {
+            "dogName": "Blackfriars Buzz",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Swift Serena",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Grangeview Dream",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Cape Island",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Platinum Record",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Roanna Ash",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Blackfriars Buzz": 6.5407,
+          "Swift Serena": 2.3529,
+          "Grangeview Dream": -1.005,
+          "Cape Island": 2.4114,
+          "Platinum Record": 2.2693,
+          "Roanna Ash": 7.0207
+        },
+        "base_scores_trace": {
+          "Blackfriars Buzz": 2.2157,
+          "Swift Serena": 0.7829,
+          "Grangeview Dream": -1.15,
+          "Cape Island": 3.1214,
+          "Platinum Record": 1.1643,
+          "Roanna Ash": 3.0357
+        },
+        "bda_modes": {
+          "Blackfriars Buzz": "STD_NO_DATE_CUR",
+          "Swift Serena": "STD_NO_DATE_CUR",
+          "Grangeview Dream": "STD_NO_DATE_CUR",
+          "Cape Island": "STD_NO_DATE_CUR",
+          "Platinum Record": "STD_NO_DATE_CUR",
+          "Roanna Ash": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Blackfriars Buzz": false,
+          "Swift Serena": true,
+          "Grangeview Dream": false,
+          "Cape Island": false,
+          "Platinum Record": false,
+          "Roanna Ash": false
+        },
+        "neg_start_L1": {
+          "Blackfriars Buzz": false,
+          "Swift Serena": false,
+          "Grangeview Dream": false,
+          "Cape Island": false,
+          "Platinum Record": false,
+          "Roanna Ash": false
+        },
+        "styles": {
+          "Blackfriars Buzz": "rails",
+          "Swift Serena": "rails",
+          "Grangeview Dream": "rails",
+          "Cape Island": "mid",
+          "Platinum Record": "rails",
+          "Roanna Ash": "wide"
+        },
+        "trouble_cap_totals": {
+          "Blackfriars Buzz": -0.115,
+          "Swift Serena": -1.09,
+          "Grangeview Dream": -0.015,
+          "Cape Island": -0.99,
+          "Platinum Record": -1.345,
+          "Roanna Ash": -0.095
+        },
+        "bonus_cap_totals": {
+          "Blackfriars Buzz": 2.44,
+          "Swift Serena": 2.36,
+          "Grangeview Dream": 0.16,
+          "Cape Island": 0.28,
+          "Platinum Record": 1.6,
+          "Roanna Ash": 2.08
+        },
+        "trace_hash": "143296f81d0f4b199e321fba45528b916c278280ae8bd47d5367baf4b07517e5"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 11,
+      "predictions": [
+        {
+          "dogName": "Kiltippin Rose",
+          "raw_score": 7.4971,
+          "percentage": 90.2,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Pascali Rosie",
+          "raw_score": 5.1971,
+          "percentage": 9.0,
+          "rank": 2,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Ashville Bucko",
+          "raw_score": 2.2871,
+          "percentage": 0.5,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Splashdash Ernie",
+          "raw_score": 1.7357,
+          "percentage": 0.3,
+          "rank": 4,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Ballyquin Julius",
+          "raw_score": -0.22,
+          "percentage": 0.0,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Polyphenols",
+          "raw_score": -3.0207,
+          "percentage": 0.0,
+          "rank": 6,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.434999942779541,
+        "pre_check": [
+          {
+            "dogName": "Splashdash Ernie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Kiltippin Rose",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Ballyquin Julius",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Pascali Rosie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Polyphenols",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Ashville Bucko",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Splashdash Ernie": 1.7357,
+          "Kiltippin Rose": 7.4971,
+          "Ballyquin Julius": -0.22,
+          "Pascali Rosie": 5.1971,
+          "Polyphenols": -3.0207,
+          "Ashville Bucko": 2.2871
+        },
+        "base_scores_trace": {
+          "Splashdash Ernie": 1.2157,
+          "Kiltippin Rose": 3.4821,
+          "Ballyquin Julius": -0.74,
+          "Pascali Rosie": 1.8471,
+          "Polyphenols": -0.6857,
+          "Ashville Bucko": 0.3171
+        },
+        "bda_modes": {
+          "Splashdash Ernie": "STD_NO_DATE_CUR",
+          "Kiltippin Rose": "STD_NO_DATE_CUR",
+          "Ballyquin Julius": "ESC_DIST_CUR",
+          "Pascali Rosie": "STD_NO_DATE_CUR",
+          "Polyphenols": "STD_NO_DATE_CUR",
+          "Ashville Bucko": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Splashdash Ernie": false,
+          "Kiltippin Rose": true,
+          "Ballyquin Julius": false,
+          "Pascali Rosie": true,
+          "Polyphenols": false,
+          "Ashville Bucko": false
+        },
+        "neg_start_L1": {
+          "Splashdash Ernie": false,
+          "Kiltippin Rose": false,
+          "Ballyquin Julius": false,
+          "Pascali Rosie": false,
+          "Polyphenols": false,
+          "Ashville Bucko": false
+        },
+        "styles": {
+          "Splashdash Ernie": "mid",
+          "Kiltippin Rose": "mid",
+          "Ballyquin Julius": "wide",
+          "Pascali Rosie": "mid",
+          "Polyphenols": "mid",
+          "Ashville Bucko": "mid"
+        },
+        "trouble_cap_totals": {
+          "Splashdash Ernie": -0.1,
+          "Kiltippin Rose": -0.065,
+          "Ballyquin Julius": -0.85,
+          "Pascali Rosie": -0.07,
+          "Polyphenols": -1.205,
+          "Ashville Bucko": 0.0
+        },
+        "bonus_cap_totals": {
+          "Splashdash Ernie": 0.62,
+          "Kiltippin Rose": 2.38,
+          "Ballyquin Julius": 0.92,
+          "Pascali Rosie": 3.42,
+          "Polyphenols": 0.12,
+          "Ashville Bucko": 1.52
+        },
+        "trace_hash": "f2fcf767bf1fcddc7220f9490aa4222dd3ed0cf0b44f53a02ae9369170fe81fa"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 12,
+      "predictions": [
+        {
+          "dogName": "Followdelite",
+          "raw_score": 5.6071,
+          "percentage": 49.5,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Merry Dancer",
+          "raw_score": 4.97,
+          "percentage": 26.2,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Yoguartpotjohn",
+          "raw_score": 4.8293,
+          "percentage": 22.8,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Angel Delight",
+          "raw_score": 2.0043,
+          "percentage": 1.0,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Good Rex",
+          "raw_score": 1.0686,
+          "percentage": 0.4,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Moss Row Colly",
+          "raw_score": 0.0321,
+          "percentage": 0.1,
+          "rank": 6,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.474999904632568,
+        "pre_check": [
+          {
+            "dogName": "Moss Row Colly",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Followdelite",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Yoguartpotjohn",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Angel Delight",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Merry Dancer",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Good Rex",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Moss Row Colly": 0.0321,
+          "Followdelite": 5.6071,
+          "Yoguartpotjohn": 4.8293,
+          "Angel Delight": 2.0043,
+          "Merry Dancer": 4.97,
+          "Good Rex": 1.0686
+        },
+        "base_scores_trace": {
+          "Moss Row Colly": 0.6571,
+          "Followdelite": 1.4871,
+          "Yoguartpotjohn": 2.7643,
+          "Angel Delight": -0.2457,
+          "Merry Dancer": 0.74,
+          "Good Rex": 0.8186
+        },
+        "bda_modes": {
+          "Moss Row Colly": "STD_NO_DATE_CUR",
+          "Followdelite": "STD_NO_DATE_CUR",
+          "Yoguartpotjohn": "STD_NO_DATE_CUR",
+          "Angel Delight": "STD_NO_DATE_CUR",
+          "Merry Dancer": "STD_NO_DATE_CUR",
+          "Good Rex": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Moss Row Colly": false,
+          "Followdelite": false,
+          "Yoguartpotjohn": false,
+          "Angel Delight": false,
+          "Merry Dancer": false,
+          "Good Rex": false
+        },
+        "neg_start_L1": {
+          "Moss Row Colly": false,
+          "Followdelite": false,
+          "Yoguartpotjohn": false,
+          "Angel Delight": false,
+          "Merry Dancer": false,
+          "Good Rex": false
+        },
+        "styles": {
+          "Moss Row Colly": "rails",
+          "Followdelite": "rails",
+          "Yoguartpotjohn": "mid",
+          "Angel Delight": "mid",
+          "Merry Dancer": "wide",
+          "Good Rex": "wide"
+        },
+        "trouble_cap_totals": {
+          "Moss Row Colly": -0.925,
+          "Followdelite": 0.0,
+          "Yoguartpotjohn": -0.035,
+          "Angel Delight": -0.05,
+          "Merry Dancer": -0.05,
+          "Good Rex": -0.05
+        },
+        "bonus_cap_totals": {
+          "Moss Row Colly": 0.0,
+          "Followdelite": 2.12,
+          "Yoguartpotjohn": 0.4,
+          "Angel Delight": 0.6,
+          "Merry Dancer": 2.28,
+          "Good Rex": 0.0
+        },
+        "trace_hash": "da147e22410eb1aa2aa5cb82fa89cc80bf62014719f1d5022080d3e4f2a6ee3b"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 13,
+      "predictions": [
+        {
+          "dogName": "Cooladerry Larry",
+          "raw_score": 5.8136,
+          "percentage": 47.4,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Headford Babs",
+          "raw_score": 5.4721,
+          "percentage": 33.7,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Honour Vacation",
+          "raw_score": 4.53,
+          "percentage": 12.0,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Sharben Rose",
+          "raw_score": 3.7619,
+          "percentage": 5.5,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Untold Real",
+          "raw_score": 2.1307,
+          "percentage": 0.9,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Peregrine Messi",
+          "raw_score": 1.5807,
+          "percentage": 0.5,
+          "rank": 6,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Rank",
+        "global_cms": 1.0,
+        "pre_check": [
+          {
+            "dogName": "Headford Babs",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Honour Vacation",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Cooladerry Larry",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Untold Real",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Sharben Rose",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Peregrine Messi",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Headford Babs": 5.4721,
+          "Honour Vacation": 4.53,
+          "Cooladerry Larry": 5.8136,
+          "Untold Real": 2.1307,
+          "Sharben Rose": 3.7619,
+          "Peregrine Messi": 1.5807
+        },
+        "base_scores_trace": {
+          "Headford Babs": 2.5371,
+          "Honour Vacation": 0.45,
+          "Cooladerry Larry": 1.6786,
+          "Untold Real": 1.6757,
+          "Sharben Rose": 2.2569,
+          "Peregrine Messi": 2.4857
+        },
+        "bda_modes": {
+          "Headford Babs": "FALLBACK_NO_DATE_ADJ",
+          "Honour Vacation": "ESC_DIST_CUR",
+          "Cooladerry Larry": "STD_NO_DATE_CUR",
+          "Untold Real": "FALLBACK_NO_DATE_ADJ",
+          "Sharben Rose": "FALLBACK_NO_DATE_ADJ",
+          "Peregrine Messi": "FALLBACK_NO_DATE_ADJ"
+        },
+        "ssb_active": {
+          "Headford Babs": false,
+          "Honour Vacation": false,
+          "Cooladerry Larry": true,
+          "Untold Real": false,
+          "Sharben Rose": false,
+          "Peregrine Messi": false
+        },
+        "neg_start_L1": {
+          "Headford Babs": false,
+          "Honour Vacation": false,
+          "Cooladerry Larry": false,
+          "Untold Real": false,
+          "Sharben Rose": false,
+          "Peregrine Messi": true
+        },
+        "styles": {
+          "Headford Babs": "rails",
+          "Honour Vacation": "rails",
+          "Cooladerry Larry": "rails",
+          "Untold Real": "rails",
+          "Sharben Rose": "mid",
+          "Peregrine Messi": "mid"
+        },
+        "trouble_cap_totals": {
+          "Headford Babs": -0.015,
+          "Honour Vacation": 0.0,
+          "Cooladerry Larry": -0.585,
+          "Untold Real": -0.075,
+          "Sharben Rose": -0.025,
+          "Peregrine Messi": -0.955
+        },
+        "bonus_cap_totals": {
+          "Headford Babs": 3.2,
+          "Honour Vacation": 2.08,
+          "Cooladerry Larry": 3.02,
+          "Untold Real": 1.08,
+          "Sharben Rose": 2.08,
+          "Peregrine Messi": 0.6
+        },
+        "trace_hash": "c2d90969c829d82d9157ea45930b22a42b5dca3465e627146a6f51d804571161"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 14,
+      "predictions": [
+        {
+          "dogName": "Mineola Topman",
+          "raw_score": 7.1521,
+          "percentage": 97.6,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Revilo Eagle",
+          "raw_score": 2.7407,
+          "percentage": 1.2,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Da Man Joey",
+          "raw_score": 2.6429,
+          "percentage": 1.1,
+          "rank": 3,
+          "flags": [
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Mccaffs Boss",
+          "raw_score": 0.1307,
+          "percentage": 0.1,
+          "rank": 4,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Fairyhill Daisy",
+          "raw_score": -0.1975,
+          "percentage": 0.0,
+          "rank": 5,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Metric Mari",
+          "raw_score": -1.8,
+          "percentage": 0.0,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.360000133514404,
+        "pre_check": [
+          {
+            "dogName": "Metric Mari",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Mccaffs Boss",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Fairyhill Daisy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Revilo Eagle",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Mineola Topman",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Da Man Joey",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Metric Mari": -1.8,
+          "Mccaffs Boss": 0.1307,
+          "Fairyhill Daisy": -0.1975,
+          "Revilo Eagle": 2.7407,
+          "Mineola Topman": 7.1521,
+          "Da Man Joey": 2.6429
+        },
+        "base_scores_trace": {
+          "Metric Mari": -1.86,
+          "Mccaffs Boss": 1.4057,
+          "Fairyhill Daisy": 0.0625,
+          "Revilo Eagle": -0.1243,
+          "Mineola Topman": 2.1871,
+          "Da Man Joey": 2.1429
+        },
+        "bda_modes": {
+          "Metric Mari": "ESC_DIST_CUR",
+          "Mccaffs Boss": "STD_NO_DATE_CUR",
+          "Fairyhill Daisy": "STD_NO_DATE_CUR",
+          "Revilo Eagle": "STD_NO_DATE_CUR",
+          "Mineola Topman": "STD_NO_DATE_CUR",
+          "Da Man Joey": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Metric Mari": false,
+          "Mccaffs Boss": false,
+          "Fairyhill Daisy": false,
+          "Revilo Eagle": false,
+          "Mineola Topman": true,
+          "Da Man Joey": false
+        },
+        "neg_start_L1": {
+          "Metric Mari": false,
+          "Mccaffs Boss": true,
+          "Fairyhill Daisy": false,
+          "Revilo Eagle": true,
+          "Mineola Topman": false,
+          "Da Man Joey": true
+        },
+        "styles": {
+          "Metric Mari": "mid",
+          "Mccaffs Boss": "mid",
+          "Fairyhill Daisy": "mid",
+          "Revilo Eagle": "mid",
+          "Mineola Topman": "mid",
+          "Da Man Joey": "mid"
+        },
+        "trouble_cap_totals": {
+          "Metric Mari": -0.05,
+          "Mccaffs Boss": -1.275,
+          "Fairyhill Daisy": -0.01,
+          "Revilo Eagle": -0.115,
+          "Mineola Topman": -0.115,
+          "Da Man Joey": 0.0
+        },
+        "bonus_cap_totals": {
+          "Metric Mari": 0.36,
+          "Mccaffs Boss": 0.0,
+          "Fairyhill Daisy": 0.0,
+          "Revilo Eagle": 1.28,
+          "Mineola Topman": 3.38,
+          "Da Man Joey": 0.5
+        },
+        "trace_hash": "59ae25221e45b604218a2809dc266876b7befe23d7bc2c9030d9cf2a56e830a1"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 15,
+      "predictions": [
+        {
+          "dogName": "Lilac Lady",
+          "raw_score": 4.9557,
+          "percentage": 92.6,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Slipalong Cody",
+          "raw_score": 1.4386,
+          "percentage": 2.5,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Effernogue Heart",
+          "raw_score": 1.4271,
+          "percentage": 2.5,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Spartan Soldier",
+          "raw_score": 1.2971,
+          "percentage": 2.2,
+          "rank": 4,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Keefill Amelia",
+          "raw_score": -0.715,
+          "percentage": 0.2,
+          "rank": 5,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.389999866485596,
+        "pre_check": [
+          {
+            "dogName": "Lilac Lady",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Spartan Soldier",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Slipalong Cody",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Keefill Amelia",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Effernogue Heart",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Lilac Lady": 4.9557,
+          "Spartan Soldier": 1.2971,
+          "Slipalong Cody": 1.4386,
+          "Keefill Amelia": -0.715,
+          "Effernogue Heart": 1.4271
+        },
+        "base_scores_trace": {
+          "Lilac Lady": 2.4957,
+          "Spartan Soldier": 1.4871,
+          "Slipalong Cody": -1.2614,
+          "Keefill Amelia": -0.83,
+          "Effernogue Heart": 1.3771
+        },
+        "bda_modes": {
+          "Lilac Lady": "STD_NO_DATE_CUR",
+          "Spartan Soldier": "STD_NO_DATE_CUR",
+          "Slipalong Cody": "STD_NO_DATE_CUR",
+          "Keefill Amelia": "STD_NO_DATE_CUR",
+          "Effernogue Heart": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Lilac Lady": false,
+          "Spartan Soldier": false,
+          "Slipalong Cody": false,
+          "Keefill Amelia": false,
+          "Effernogue Heart": true
+        },
+        "neg_start_L1": {
+          "Lilac Lady": false,
+          "Spartan Soldier": false,
+          "Slipalong Cody": false,
+          "Keefill Amelia": false,
+          "Effernogue Heart": false
+        },
+        "styles": {
+          "Lilac Lady": "rails",
+          "Spartan Soldier": "mid",
+          "Slipalong Cody": "mid",
+          "Keefill Amelia": "mid",
+          "Effernogue Heart": "wide"
+        },
+        "trouble_cap_totals": {
+          "Lilac Lady": -0.06,
+          "Spartan Soldier": -1.04,
+          "Slipalong Cody": 0.0,
+          "Keefill Amelia": -0.165,
+          "Effernogue Heart": -0.97
+        },
+        "bonus_cap_totals": {
+          "Lilac Lady": 0.52,
+          "Spartan Soldier": 0.85,
+          "Slipalong Cody": 1.0,
+          "Keefill Amelia": 0.28,
+          "Effernogue Heart": 0.72
+        },
+        "trace_hash": "0680ce229594d6ed8ee7ac1645156988176104b52435a055c630cd8685da3afa"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 16,
+      "predictions": [
+        {
+          "dogName": "Tommys Clan",
+          "raw_score": 8.99,
+          "percentage": 94.0,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Front Amara",
+          "raw_score": 5.8936,
+          "percentage": 3.9,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Signet Tia",
+          "raw_score": 5.0943,
+          "percentage": 1.7,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Outdoor Tunnes",
+          "raw_score": 3.4686,
+          "percentage": 0.3,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Plenty Of Trend",
+          "raw_score": 2.6457,
+          "percentage": 0.1,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.0,
+        "pre_check": [
+          {
+            "dogName": "Signet Tia",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Plenty Of Trend",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Front Amara",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Outdoor Tunnes",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Tommys Clan",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Signet Tia": 5.0943,
+          "Plenty Of Trend": 2.6457,
+          "Front Amara": 5.8936,
+          "Outdoor Tunnes": 3.4686,
+          "Tommys Clan": 8.99
+        },
+        "base_scores_trace": {
+          "Signet Tia": 1.9643,
+          "Plenty Of Trend": 2.0257,
+          "Front Amara": 3.3786,
+          "Outdoor Tunnes": 1.3136,
+          "Tommys Clan": 3.91
+        },
+        "bda_modes": {
+          "Signet Tia": "STD_NO_DATE_CUR",
+          "Plenty Of Trend": "STD_NO_DATE_CUR",
+          "Front Amara": "STD_NO_DATE_CUR",
+          "Outdoor Tunnes": "STD_NO_DATE_CUR",
+          "Tommys Clan": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Signet Tia": false,
+          "Plenty Of Trend": false,
+          "Front Amara": false,
+          "Outdoor Tunnes": false,
+          "Tommys Clan": true
+        },
+        "neg_start_L1": {
+          "Signet Tia": false,
+          "Plenty Of Trend": true,
+          "Front Amara": true,
+          "Outdoor Tunnes": false,
+          "Tommys Clan": false
+        },
+        "styles": {
+          "Signet Tia": "mid",
+          "Plenty Of Trend": "mid",
+          "Front Amara": "mid",
+          "Outdoor Tunnes": "mid",
+          "Tommys Clan": "wide"
+        },
+        "trouble_cap_totals": {
+          "Signet Tia": -1.22,
+          "Plenty Of Trend": -1.48,
+          "Front Amara": -0.865,
+          "Outdoor Tunnes": -0.655,
+          "Tommys Clan": -0.65
+        },
+        "bonus_cap_totals": {
+          "Signet Tia": 2.65,
+          "Plenty Of Trend": 0.4,
+          "Front Amara": 1.68,
+          "Outdoor Tunnes": 2.36,
+          "Tommys Clan": 3.73
+        },
+        "trace_hash": "a95f2765357ffe65274e142342c799ee0b7c580d245ed81ba978fa42c75c83a9"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 17,
+      "predictions": [
+        {
+          "dogName": "Clona Levi",
+          "raw_score": 23.8643,
+          "percentage": 100.0,
+          "rank": 1,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Honour Bach",
+          "raw_score": 4.9039,
+          "percentage": 0.0,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Deelish Denzel",
+          "raw_score": 1.7922,
+          "percentage": 0.0,
+          "rank": 3,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Kylenoe Pam",
+          "raw_score": -0.13,
+          "percentage": 0.0,
+          "rank": 4,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Bang On Big Mick",
+          "raw_score": -3.4864,
+          "percentage": 0.0,
+          "rank": 5,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 4.130000114440918,
+        "pre_check": [
+          {
+            "dogName": "Honour Bach",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Deelish Denzel",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Bang On Big Mick",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Clona Levi",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Kylenoe Pam",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Honour Bach": 4.9039,
+          "Deelish Denzel": 1.7922,
+          "Bang On Big Mick": -3.4864,
+          "Clona Levi": 23.8643,
+          "Kylenoe Pam": -0.13
+        },
+        "base_scores_trace": {
+          "Honour Bach": 2.0589,
+          "Deelish Denzel": 2.7572,
+          "Bang On Big Mick": -2.6014,
+          "Clona Levi": 22.0843,
+          "Kylenoe Pam": -0.04
+        },
+        "bda_modes": {
+          "Honour Bach": "FALLBACK_NO_DATE_ADJ",
+          "Deelish Denzel": "STD_NO_DATE_CUR",
+          "Bang On Big Mick": "STD_NO_DATE_CUR",
+          "Clona Levi": "STD_NO_DATE_CUR",
+          "Kylenoe Pam": "ESC_DIST_CUR"
+        },
+        "ssb_active": {
+          "Honour Bach": false,
+          "Deelish Denzel": false,
+          "Bang On Big Mick": false,
+          "Clona Levi": false,
+          "Kylenoe Pam": true
+        },
+        "neg_start_L1": {
+          "Honour Bach": false,
+          "Deelish Denzel": false,
+          "Bang On Big Mick": false,
+          "Clona Levi": false,
+          "Kylenoe Pam": false
+        },
+        "styles": {
+          "Honour Bach": "rails",
+          "Deelish Denzel": "mid",
+          "Bang On Big Mick": "rails",
+          "Clona Levi": "rails",
+          "Kylenoe Pam": "mid"
+        },
+        "trouble_cap_totals": {
+          "Honour Bach": -0.025,
+          "Deelish Denzel": -1.385,
+          "Bang On Big Mick": -1.085,
+          "Clona Levi": 0.0,
+          "Kylenoe Pam": -0.97
+        },
+        "bonus_cap_totals": {
+          "Honour Bach": 3.12,
+          "Deelish Denzel": 0.42,
+          "Bang On Big Mick": 0.2,
+          "Clona Levi": 1.78,
+          "Kylenoe Pam": 0.88
+        },
+        "trace_hash": "91d6bb5d95da166cbe7dc5f569a40d24fc99c27272d07257ce547d54bafef78a"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 18,
+      "predictions": [
+        {
+          "dogName": "Kilara Rodrigo",
+          "raw_score": 5.8064,
+          "percentage": 83.2,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Carrigoon Kali",
+          "raw_score": 3.3336,
+          "percentage": 6.4,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Swift Jasper",
+          "raw_score": 3.0264,
+          "percentage": 4.7,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Free Flow",
+          "raw_score": 2.7971,
+          "percentage": 3.7,
+          "rank": 4,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Caister Kay",
+          "raw_score": 1.9486,
+          "percentage": 1.3,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Good Extra",
+          "raw_score": 1.42,
+          "percentage": 0.7,
+          "rank": 6,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.349999904632568,
+        "pre_check": [
+          {
+            "dogName": "Swift Jasper",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Caister Kay",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Kilara Rodrigo",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Good Extra",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Free Flow",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Carrigoon Kali",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Swift Jasper": 3.0264,
+          "Caister Kay": 1.9486,
+          "Kilara Rodrigo": 5.8064,
+          "Good Extra": 1.42,
+          "Free Flow": 2.7971,
+          "Carrigoon Kali": 3.3336
+        },
+        "base_scores_trace": {
+          "Swift Jasper": 1.7614,
+          "Caister Kay": 1.9986,
+          "Kilara Rodrigo": 3.0314,
+          "Good Extra": 0.67,
+          "Free Flow": 2.6671,
+          "Carrigoon Kali": 1.0986
+        },
+        "bda_modes": {
+          "Swift Jasper": "STD_NO_DATE_CUR",
+          "Caister Kay": "STD_NO_DATE_CUR",
+          "Kilara Rodrigo": "STD_NO_DATE_CUR",
+          "Good Extra": "STD_NO_DATE_CUR",
+          "Free Flow": "STD_NO_DATE_CUR",
+          "Carrigoon Kali": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Swift Jasper": true,
+          "Caister Kay": true,
+          "Kilara Rodrigo": true,
+          "Good Extra": false,
+          "Free Flow": false,
+          "Carrigoon Kali": false
+        },
+        "neg_start_L1": {
+          "Swift Jasper": false,
+          "Caister Kay": false,
+          "Kilara Rodrigo": false,
+          "Good Extra": false,
+          "Free Flow": false,
+          "Carrigoon Kali": false
+        },
+        "styles": {
+          "Swift Jasper": "rails",
+          "Caister Kay": "rails",
+          "Kilara Rodrigo": "mid",
+          "Good Extra": "mid",
+          "Free Flow": "mid",
+          "Carrigoon Kali": "wide"
+        },
+        "trouble_cap_totals": {
+          "Swift Jasper": -0.035,
+          "Caister Kay": -1.07,
+          "Kilara Rodrigo": -1.075,
+          "Good Extra": -1.35,
+          "Free Flow": -1.1,
+          "Carrigoon Kali": -0.035
+        },
+        "bonus_cap_totals": {
+          "Swift Jasper": 1.0,
+          "Caister Kay": 0.72,
+          "Kilara Rodrigo": 2.4,
+          "Good Extra": 0.4,
+          "Free Flow": 1.48,
+          "Carrigoon Kali": 0.52
+        },
+        "trace_hash": "3807c5326409aca7ec3775e7115dcd1a8d1b6e958ff67ce71e13ce2f5d4ee8e7"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 19,
+      "predictions": [
+        {
+          "dogName": "Cantys Double",
+          "raw_score": 6.4164,
+          "percentage": 97.1,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Wolf Jet",
+          "raw_score": 2.6707,
+          "percentage": 2.3,
+          "rank": 2,
+          "flags": [
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Sambar Prince",
+          "raw_score": 0.9936,
+          "percentage": 0.4,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Shianns Ginger",
+          "raw_score": -0.4357,
+          "percentage": 0.1,
+          "rank": 4,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Annadown Jet",
+          "raw_score": -0.6814,
+          "percentage": 0.1,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Good Romeo",
+          "raw_score": -1.4743,
+          "percentage": 0.0,
+          "rank": 6,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.1549999713897705,
+        "pre_check": [
+          {
+            "dogName": "Sambar Prince",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Good Romeo",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Wolf Jet",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Cantys Double",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Shianns Ginger",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Annadown Jet",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Sambar Prince": 0.9936,
+          "Good Romeo": -1.4743,
+          "Wolf Jet": 2.6707,
+          "Cantys Double": 6.4164,
+          "Shianns Ginger": -0.4357,
+          "Annadown Jet": -0.6814
+        },
+        "base_scores_trace": {
+          "Sambar Prince": -0.5314,
+          "Good Romeo": -2.3643,
+          "Wolf Jet": 2.7557,
+          "Cantys Double": 0.9314,
+          "Shianns Ginger": 0.3143,
+          "Annadown Jet": 0.0286
+        },
+        "bda_modes": {
+          "Sambar Prince": "STD_NO_DATE_CUR",
+          "Good Romeo": "STD_NO_DATE_CUR",
+          "Wolf Jet": "STD_NO_DATE_CUR",
+          "Cantys Double": "STD_NO_DATE_CUR",
+          "Shianns Ginger": "STD_NO_DATE_CUR",
+          "Annadown Jet": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Sambar Prince": false,
+          "Good Romeo": true,
+          "Wolf Jet": false,
+          "Cantys Double": true,
+          "Shianns Ginger": true,
+          "Annadown Jet": false
+        },
+        "neg_start_L1": {
+          "Sambar Prince": false,
+          "Good Romeo": false,
+          "Wolf Jet": true,
+          "Cantys Double": false,
+          "Shianns Ginger": false,
+          "Annadown Jet": false
+        },
+        "styles": {
+          "Sambar Prince": "rails",
+          "Good Romeo": "rails",
+          "Wolf Jet": "rails",
+          "Cantys Double": "mid",
+          "Shianns Ginger": "mid",
+          "Annadown Jet": "wide"
+        },
+        "trouble_cap_totals": {
+          "Sambar Prince": -1.075,
+          "Good Romeo": -0.01,
+          "Wolf Jet": -0.085,
+          "Cantys Double": -0.015,
+          "Shianns Ginger": -1.35,
+          "Annadown Jet": -1.01
+        },
+        "bonus_cap_totals": {
+          "Sambar Prince": 0.6,
+          "Good Romeo": 0.6,
+          "Wolf Jet": 0.0,
+          "Cantys Double": 3.8,
+          "Shianns Ginger": 0.6,
+          "Annadown Jet": 0.0
+        },
+        "trace_hash": "c13939a232a3819590bf3c00bccf129c25e098a0113cc85126572c877d54e052"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 20,
+      "predictions": [
+        {
+          "dogName": "Yeah Mick",
+          "raw_score": 7.1586,
+          "percentage": 53.0,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MISMATCH",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Lightfoot Elle",
+          "raw_score": 6.6443,
+          "percentage": 31.7,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Scuba Stevie",
+          "raw_score": 5.6507,
+          "percentage": 10.7,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Steplady",
+          "raw_score": 4.3036,
+          "percentage": 2.8,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Madamoiselle",
+          "raw_score": 4.0986,
+          "percentage": 1.8,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Betweenthe Lines",
+          "raw_score": 0.7593,
+          "percentage": 0.0,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.4049999713897705,
+        "pre_check": [
+          {
+            "dogName": "Steplady",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Madamoiselle",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Betweenthe Lines",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Scuba Stevie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Lightfoot Elle",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Yeah Mick",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Steplady": 4.3036,
+          "Madamoiselle": 4.0986,
+          "Betweenthe Lines": 0.7593,
+          "Scuba Stevie": 5.6507,
+          "Lightfoot Elle": 6.6443,
+          "Yeah Mick": 7.1586
+        },
+        "base_scores_trace": {
+          "Steplady": 0.8636,
+          "Madamoiselle": 1.2886,
+          "Betweenthe Lines": 1.7343,
+          "Scuba Stevie": 3.0957,
+          "Lightfoot Elle": 3.4043,
+          "Yeah Mick": 5.0086
+        },
+        "bda_modes": {
+          "Steplady": "STD_NO_DATE_CUR",
+          "Madamoiselle": "STD_NO_DATE_CUR",
+          "Betweenthe Lines": "STD_NO_DATE_CUR",
+          "Scuba Stevie": "STD_NO_DATE_CUR",
+          "Lightfoot Elle": "STD_NO_DATE_CUR",
+          "Yeah Mick": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Steplady": true,
+          "Madamoiselle": false,
+          "Betweenthe Lines": false,
+          "Scuba Stevie": false,
+          "Lightfoot Elle": false,
+          "Yeah Mick": true
+        },
+        "neg_start_L1": {
+          "Steplady": false,
+          "Madamoiselle": false,
+          "Betweenthe Lines": false,
+          "Scuba Stevie": true,
+          "Lightfoot Elle": false,
+          "Yeah Mick": false
+        },
+        "styles": {
+          "Steplady": "mid",
+          "Madamoiselle": "mid",
+          "Betweenthe Lines": "mid",
+          "Scuba Stevie": "mid",
+          "Lightfoot Elle": "mid",
+          "Yeah Mick": "rails"
+        },
+        "trouble_cap_totals": {
+          "Steplady": -0.02,
+          "Madamoiselle": 0.0,
+          "Betweenthe Lines": -0.975,
+          "Scuba Stevie": -1.025,
+          "Lightfoot Elle": -0.05,
+          "Yeah Mick": 0.0
+        },
+        "bonus_cap_totals": {
+          "Steplady": 1.76,
+          "Madamoiselle": 1.36,
+          "Betweenthe Lines": 0.0,
+          "Scuba Stevie": 1.88,
+          "Lightfoot Elle": 1.84,
+          "Yeah Mick": 1.3
+        },
+        "trace_hash": "c16d6a2f804320bd66430c6825ef89c7b55c3c0f51ec13dc744b572846636040"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 21,
+      "predictions": [
+        {
+          "dogName": "Harlequin Junior",
+          "raw_score": 5.8343,
+          "percentage": 90.7,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Weird People",
+          "raw_score": 2.985,
+          "percentage": 4.8,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Unlikely Reggie",
+          "raw_score": 2.3214,
+          "percentage": 2.5,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "Bathway Storm",
+          "raw_score": 1.8593,
+          "percentage": 1.5,
+          "rank": 4,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Billy And Bob",
+          "raw_score": 0.8121,
+          "percentage": 0.4,
+          "rank": 5,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Confey Bolger",
+          "raw_score": -0.6157,
+          "percentage": 0.1,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.429999828338623,
+        "pre_check": [
+          {
+            "dogName": "Weird People",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Bathway Storm",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Billy And Bob",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Confey Bolger",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Harlequin Junior",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Unlikely Reggie",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Weird People": 2.985,
+          "Bathway Storm": 1.8593,
+          "Billy And Bob": 0.8121,
+          "Confey Bolger": -0.6157,
+          "Harlequin Junior": 5.8343,
+          "Unlikely Reggie": 2.3214
+        },
+        "base_scores_trace": {
+          "Weird People": 1.71,
+          "Bathway Storm": 0.6893,
+          "Billy And Bob": 2.1471,
+          "Confey Bolger": -0.9557,
+          "Harlequin Junior": 2.3143,
+          "Unlikely Reggie": 3.0914
+        },
+        "bda_modes": {
+          "Weird People": "STD_NO_DATE_CUR",
+          "Bathway Storm": "STD_NO_DATE_CUR",
+          "Billy And Bob": "STD_NO_DATE_CUR",
+          "Confey Bolger": "STD_NO_DATE_CUR",
+          "Harlequin Junior": "STD_NO_DATE_CUR",
+          "Unlikely Reggie": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Weird People": false,
+          "Bathway Storm": true,
+          "Billy And Bob": false,
+          "Confey Bolger": false,
+          "Harlequin Junior": true,
+          "Unlikely Reggie": false
+        },
+        "neg_start_L1": {
+          "Weird People": false,
+          "Bathway Storm": false,
+          "Billy And Bob": false,
+          "Confey Bolger": false,
+          "Harlequin Junior": false,
+          "Unlikely Reggie": false
+        },
+        "styles": {
+          "Weird People": "rails",
+          "Bathway Storm": "rails",
+          "Billy And Bob": "mid",
+          "Confey Bolger": "mid",
+          "Harlequin Junior": "wide",
+          "Unlikely Reggie": "wide"
+        },
+        "trouble_cap_totals": {
+          "Weird People": -1.075,
+          "Bathway Storm": -0.13,
+          "Billy And Bob": -1.335,
+          "Confey Bolger": -0.06,
+          "Harlequin Junior": 0.0,
+          "Unlikely Reggie": -1.07
+        },
+        "bonus_cap_totals": {
+          "Weird People": 0.6,
+          "Bathway Storm": 1.0,
+          "Billy And Bob": 0.0,
+          "Confey Bolger": 0.4,
+          "Harlequin Junior": 1.52,
+          "Unlikely Reggie": 0.0
+        },
+        "trace_hash": "a6537d0d788856d640972baecf14df7b76763ec7c01166637030f3d7c682362d"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 22,
+      "predictions": [
+        {
+          "dogName": "Footfield Magpie",
+          "raw_score": 5.645,
+          "percentage": 54.4,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Ravenswood Blake",
+          "raw_score": 4.615,
+          "percentage": 17.6,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Jamelia Marcus",
+          "raw_score": 4.4114,
+          "percentage": 14.4,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Ard Amber",
+          "raw_score": 4.1586,
+          "percentage": 11.2,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Triangle Trikari",
+          "raw_score": 2.78,
+          "percentage": 2.3,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Market",
+          "raw_score": -0.2186,
+          "percentage": 0.1,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "TROUBLE"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.174999952316284,
+        "pre_check": [
+          {
+            "dogName": "Triangle Trikari",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Ard Amber",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Ravenswood Blake",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Market",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Footfield Magpie",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Jamelia Marcus",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Triangle Trikari": 2.78,
+          "Ard Amber": 4.1586,
+          "Ravenswood Blake": 4.615,
+          "Market": -0.2186,
+          "Footfield Magpie": 5.645,
+          "Jamelia Marcus": 4.4114
+        },
+        "base_scores_trace": {
+          "Triangle Trikari": 1.83,
+          "Ard Amber": 1.9986,
+          "Ravenswood Blake": 2.34,
+          "Market": 0.7814,
+          "Footfield Magpie": 1.74,
+          "Jamelia Marcus": 2.4414
+        },
+        "bda_modes": {
+          "Triangle Trikari": "ESC_DIST_CUR",
+          "Ard Amber": "STD_NO_DATE_CUR",
+          "Ravenswood Blake": "STD_NO_DATE_CUR",
+          "Market": "STD_NO_DATE_CUR",
+          "Footfield Magpie": "ESC_DIST_CUR",
+          "Jamelia Marcus": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Triangle Trikari": false,
+          "Ard Amber": false,
+          "Ravenswood Blake": false,
+          "Market": true,
+          "Footfield Magpie": true,
+          "Jamelia Marcus": true
+        },
+        "neg_start_L1": {
+          "Triangle Trikari": true,
+          "Ard Amber": false,
+          "Ravenswood Blake": false,
+          "Market": false,
+          "Footfield Magpie": false,
+          "Jamelia Marcus": false
+        },
+        "styles": {
+          "Triangle Trikari": "mid",
+          "Ard Amber": "mid",
+          "Ravenswood Blake": "mid",
+          "Market": "mid",
+          "Footfield Magpie": "mid",
+          "Jamelia Marcus": "wide"
+        },
+        "trouble_cap_totals": {
+          "Triangle Trikari": -1.35,
+          "Ard Amber": -1.44,
+          "Ravenswood Blake": -0.125,
+          "Market": -1.12,
+          "Footfield Magpie": -0.035,
+          "Jamelia Marcus": -0.05
+        },
+        "bonus_cap_totals": {
+          "Triangle Trikari": 1.6,
+          "Ard Amber": 1.9,
+          "Ravenswood Blake": 0.7,
+          "Market": 1.12,
+          "Footfield Magpie": 3.24,
+          "Jamelia Marcus": 2.72
+        },
+        "trace_hash": "9df2424e827c638e8560cede965ee90d909dc4075185da341f079e369991dd4b"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 23,
+      "predictions": [
+        {
+          "dogName": "Emers Summer",
+          "raw_score": 7.6196,
+          "percentage": 73.0,
+          "rank": 1,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Baggins Lad",
+          "raw_score": 6.605,
+          "percentage": 26.4,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Skirk Bolger",
+          "raw_score": 2.1286,
+          "percentage": 0.3,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Fashionably Late",
+          "raw_score": 1.7929,
+          "percentage": 0.2,
+          "rank": 4,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Headford Rose",
+          "raw_score": 0.9743,
+          "percentage": 0.1,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Bish Bosh Bashy",
+          "raw_score": -0.2657,
+          "percentage": 0.0,
+          "rank": 6,
+          "flags": [
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.4049999713897705,
+        "pre_check": [
+          {
+            "dogName": "Skirk Bolger",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Fashionably Late",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Emers Summer",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Bish Bosh Bashy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Headford Rose",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Baggins Lad",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Skirk Bolger": 2.1286,
+          "Fashionably Late": 1.7929,
+          "Emers Summer": 7.6196,
+          "Bish Bosh Bashy": -0.2657,
+          "Headford Rose": 0.9743,
+          "Baggins Lad": 6.605
+        },
+        "base_scores_trace": {
+          "Skirk Bolger": 1.5286,
+          "Fashionably Late": 1.4929,
+          "Emers Summer": 3.2946,
+          "Bish Bosh Bashy": 0.6843,
+          "Headford Rose": -0.6857,
+          "Baggins Lad": 2.45
+        },
+        "bda_modes": {
+          "Skirk Bolger": "STD_NO_DATE_CUR",
+          "Fashionably Late": "STD_NO_DATE_CUR",
+          "Emers Summer": "STD_NO_DATE_CUR",
+          "Bish Bosh Bashy": "STD_NO_DATE_CUR",
+          "Headford Rose": "STD_NO_DATE_CUR",
+          "Baggins Lad": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Skirk Bolger": false,
+          "Fashionably Late": false,
+          "Emers Summer": true,
+          "Bish Bosh Bashy": false,
+          "Headford Rose": false,
+          "Baggins Lad": true
+        },
+        "neg_start_L1": {
+          "Skirk Bolger": false,
+          "Fashionably Late": false,
+          "Emers Summer": false,
+          "Bish Bosh Bashy": false,
+          "Headford Rose": false,
+          "Baggins Lad": false
+        },
+        "styles": {
+          "Skirk Bolger": "rails",
+          "Fashionably Late": "rails",
+          "Emers Summer": "rails",
+          "Bish Bosh Bashy": "mid",
+          "Headford Rose": "mid",
+          "Baggins Lad": "wide"
+        },
+        "trouble_cap_totals": {
+          "Skirk Bolger": 0.0,
+          "Fashionably Late": 0.0,
+          "Emers Summer": -0.055,
+          "Bish Bosh Bashy": -0.95,
+          "Headford Rose": -0.84,
+          "Baggins Lad": -0.045
+        },
+        "bonus_cap_totals": {
+          "Skirk Bolger": 0.3,
+          "Fashionably Late": 0.0,
+          "Emers Summer": 2.68,
+          "Bish Bosh Bashy": 0.0,
+          "Headford Rose": 0.8,
+          "Baggins Lad": 2.2
+        },
+        "trace_hash": "d2208015ab7eb174223ce89178ebb671bda137b34cf23e1fed0fbf0ead90e317"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 24,
+      "predictions": [
+        {
+          "dogName": "Intriguing Iris",
+          "raw_score": 4.1475,
+          "percentage": 59.4,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Vale Bluebell",
+          "raw_score": 3.5614,
+          "percentage": 30.1,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Velvet Madrid",
+          "raw_score": 2.2507,
+          "percentage": 8.1,
+          "rank": 3,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB"
+          ]
+        },
+        {
+          "dogName": "Port West Storm",
+          "raw_score": 1.255,
+          "percentage": 2.4,
+          "rank": 4,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.090000152587891,
+        "pre_check": [
+          {
+            "dogName": "Velvet Madrid",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Vale Bluebell",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Port West Storm",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Intriguing Iris",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Velvet Madrid": 2.2507,
+          "Vale Bluebell": 3.5614,
+          "Port West Storm": 1.255,
+          "Intriguing Iris": 4.1475
+        },
+        "base_scores_trace": {
+          "Velvet Madrid": 1.0857,
+          "Vale Bluebell": -0.1886,
+          "Port West Storm": 1.4,
+          "Intriguing Iris": 0.3375
+        },
+        "bda_modes": {
+          "Velvet Madrid": "STD_NO_DATE_CUR",
+          "Vale Bluebell": "STD_NO_DATE_CUR",
+          "Port West Storm": "ESC_DIST_CUR",
+          "Intriguing Iris": "ESC_DIST_CUR"
+        },
+        "ssb_active": {
+          "Velvet Madrid": true,
+          "Vale Bluebell": false,
+          "Port West Storm": false,
+          "Intriguing Iris": false
+        },
+        "neg_start_L1": {
+          "Velvet Madrid": false,
+          "Vale Bluebell": false,
+          "Port West Storm": false,
+          "Intriguing Iris": false
+        },
+        "styles": {
+          "Velvet Madrid": "rails",
+          "Vale Bluebell": "rails",
+          "Port West Storm": "mid",
+          "Intriguing Iris": "mid"
+        },
+        "trouble_cap_totals": {
+          "Velvet Madrid": -0.865,
+          "Vale Bluebell": -0.05,
+          "Port West Storm": -1.345,
+          "Intriguing Iris": -0.01
+        },
+        "bonus_cap_totals": {
+          "Velvet Madrid": 1.73,
+          "Vale Bluebell": 1.8,
+          "Port West Storm": 1.2,
+          "Intriguing Iris": 2.12
+        },
+        "trace_hash": "dac2c59910ae2cce5af685146d551a50b02b959ceeaa69a49fb6ff91f472ca0f"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 25,
+      "predictions": [
+        {
+          "dogName": "Who Dares Wins",
+          "raw_score": 5.5664,
+          "percentage": 47.4,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Kilara Trojan",
+          "raw_score": 5.3136,
+          "percentage": 36.8,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Trumpers Bobcat",
+          "raw_score": 4.08,
+          "percentage": 9.8,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Acejukeboxpopper",
+          "raw_score": 3.395,
+          "percentage": 4.9,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "MOMENTUM_BONUS",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Swift Depot",
+          "raw_score": 1.6143,
+          "percentage": 0.7,
+          "rank": 5,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Strathrannoch",
+          "raw_score": 1.16,
+          "percentage": 0.4,
+          "rank": 6,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.25,
+        "pre_check": [
+          {
+            "dogName": "Acejukeboxpopper",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Who Dares Wins",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Trumpers Bobcat",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Kilara Trojan",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Strathrannoch",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Swift Depot",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Acejukeboxpopper": 3.395,
+          "Who Dares Wins": 5.5664,
+          "Trumpers Bobcat": 4.08,
+          "Kilara Trojan": 5.3136,
+          "Strathrannoch": 1.16,
+          "Swift Depot": 1.6143
+        },
+        "base_scores_trace": {
+          "Acejukeboxpopper": -0.27,
+          "Who Dares Wins": 2.9914,
+          "Trumpers Bobcat": 1.3,
+          "Kilara Trojan": 1.4486,
+          "Strathrannoch": -1.39,
+          "Swift Depot": 0.8843
+        },
+        "bda_modes": {
+          "Acejukeboxpopper": "ESC_DIST_CUR",
+          "Who Dares Wins": "STD_NO_DATE_CUR",
+          "Trumpers Bobcat": "STD_NO_DATE_CUR",
+          "Kilara Trojan": "STD_NO_DATE_CUR",
+          "Strathrannoch": "ESC_DIST_CUR",
+          "Swift Depot": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Acejukeboxpopper": false,
+          "Who Dares Wins": false,
+          "Trumpers Bobcat": false,
+          "Kilara Trojan": false,
+          "Strathrannoch": false,
+          "Swift Depot": false
+        },
+        "neg_start_L1": {
+          "Acejukeboxpopper": true,
+          "Who Dares Wins": false,
+          "Trumpers Bobcat": false,
+          "Kilara Trojan": false,
+          "Strathrannoch": false,
+          "Swift Depot": false
+        },
+        "styles": {
+          "Acejukeboxpopper": "rails",
+          "Who Dares Wins": "rails",
+          "Trumpers Bobcat": "mid",
+          "Kilara Trojan": "mid",
+          "Strathrannoch": "mid",
+          "Swift Depot": "wide"
+        },
+        "trouble_cap_totals": {
+          "Acejukeboxpopper": -0.615,
+          "Who Dares Wins": -0.025,
+          "Trumpers Bobcat": 0.0,
+          "Kilara Trojan": -0.035,
+          "Strathrannoch": -0.67,
+          "Swift Depot": -0.08
+        },
+        "bonus_cap_totals": {
+          "Acejukeboxpopper": 2.28,
+          "Who Dares Wins": 0.6,
+          "Trumpers Bobcat": 1.08,
+          "Kilara Trojan": 2.2,
+          "Strathrannoch": 1.52,
+          "Swift Depot": 0.76
+        },
+        "trace_hash": "bbfb40ebb34caac57cabfd3844b00bfd5e4971c87a572f22dcfc8a71e2b4a656"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 26,
+      "predictions": [
+        {
+          "dogName": "Basic Instinct",
+          "raw_score": 7.5593,
+          "percentage": 90.8,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Sunshine Beauty",
+          "raw_score": 4.77,
+          "percentage": 5.6,
+          "rank": 2,
+          "flags": [
+            "DRAW_MATCH_BONUS",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Blackfriars Beth",
+          "raw_score": 3.6679,
+          "percentage": 1.7,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Livinglikeadiva",
+          "raw_score": 3.4121,
+          "percentage": 1.3,
+          "rank": 4,
+          "flags": [
+            "CONSISTENCY",
+            "DRAW_MATCH_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Spot The Loony",
+          "raw_score": 2.3993,
+          "percentage": 0.4,
+          "rank": 5,
+          "flags": [
+            "DRAW_MISMATCH",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        },
+        {
+          "dogName": "That Sound",
+          "raw_score": 2.0693,
+          "percentage": 0.2,
+          "rank": 6,
+          "flags": [
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.309999942779541,
+        "pre_check": [
+          {
+            "dogName": "Livinglikeadiva",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Sunshine Beauty",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "That Sound",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Basic Instinct",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Blackfriars Beth",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Spot The Loony",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Livinglikeadiva": 3.4121,
+          "Sunshine Beauty": 4.77,
+          "That Sound": 2.0693,
+          "Basic Instinct": 7.5593,
+          "Blackfriars Beth": 3.6679,
+          "Spot The Loony": 2.3993
+        },
+        "base_scores_trace": {
+          "Livinglikeadiva": 0.4671,
+          "Sunshine Beauty": 3.12,
+          "That Sound": 3.6643,
+          "Basic Instinct": 3.9043,
+          "Blackfriars Beth": 3.0129,
+          "Spot The Loony": 3.9743
+        },
+        "bda_modes": {
+          "Livinglikeadiva": "STD_NO_DATE_CUR",
+          "Sunshine Beauty": "STD_NO_DATE_CUR",
+          "That Sound": "STD_NO_DATE_CUR",
+          "Basic Instinct": "STD_NO_DATE_CUR",
+          "Blackfriars Beth": "STD_NO_DATE_CUR",
+          "Spot The Loony": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Livinglikeadiva": false,
+          "Sunshine Beauty": false,
+          "That Sound": false,
+          "Basic Instinct": false,
+          "Blackfriars Beth": false,
+          "Spot The Loony": false
+        },
+        "neg_start_L1": {
+          "Livinglikeadiva": false,
+          "Sunshine Beauty": false,
+          "That Sound": true,
+          "Basic Instinct": false,
+          "Blackfriars Beth": false,
+          "Spot The Loony": false
+        },
+        "styles": {
+          "Livinglikeadiva": "rails",
+          "Sunshine Beauty": "rails",
+          "That Sound": "wide",
+          "Basic Instinct": "mid",
+          "Blackfriars Beth": "mid",
+          "Spot The Loony": "rails"
+        },
+        "trouble_cap_totals": {
+          "Livinglikeadiva": -0.015,
+          "Sunshine Beauty": -0.05,
+          "That Sound": -1.345,
+          "Basic Instinct": -0.045,
+          "Blackfriars Beth": -1.445,
+          "Spot The Loony": -1.025
+        },
+        "bonus_cap_totals": {
+          "Livinglikeadiva": 0.96,
+          "Sunshine Beauty": 1.4,
+          "That Sound": 0.0,
+          "Basic Instinct": 2.0,
+          "Blackfriars Beth": 0.4,
+          "Spot The Loony": 0.3
+        },
+        "trace_hash": "436182cfbf140484eaa6a1558794325034ca7bf5cd12563289ca72f820750810"
+      }
+    },
+    {
+      "file": "examples/cards_multi.json",
+      "index": 27,
+      "predictions": [
+        {
+          "dogName": "Thats So True",
+          "raw_score": 6.635,
+          "percentage": 56.1,
+          "rank": 1,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Shrewd Knows",
+          "raw_score": 5.5814,
+          "percentage": 17.8,
+          "rank": 2,
+          "flags": [
+            "CONSISTENCY",
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Havana Suzy",
+          "raw_score": 5.46,
+          "percentage": 15.8,
+          "rank": 3,
+          "flags": [
+            "CONSISTENCY",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "SSB",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Brosna Suzy",
+          "raw_score": 4.6771,
+          "percentage": 7.2,
+          "rank": 4,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED"
+          ]
+        },
+        {
+          "dogName": "Bells Meadow",
+          "raw_score": 3.4629,
+          "percentage": 1.7,
+          "rank": 5,
+          "flags": [
+            "CONSISTENCY",
+            "HIGH_TROUBLE_RATE_PENALTY",
+            "NEG_START",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "STABILITY_BONUS"
+          ]
+        },
+        {
+          "dogName": "Rising Buttercup",
+          "raw_score": 3.2779,
+          "percentage": 1.4,
+          "rank": 6,
+          "flags": [
+            "MOMENTUM_BONUS",
+            "NO_DATE_FIELDS",
+            "ORDER_BY_INDEX_USED",
+            "TROUBLE"
+          ]
+        }
+      ],
+      "trace": {
+        "run_mode": "Time",
+        "global_cms": 5.46999979019165,
+        "pre_check": [
+          {
+            "dogName": "Brosna Suzy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Havana Suzy",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Thats So True",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Shrewd Knows",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Rising Buttercup",
+            "rule_path_exists": true
+          },
+          {
+            "dogName": "Bells Meadow",
+            "rule_path_exists": true
+          }
+        ],
+        "raw_scores": {
+          "Brosna Suzy": 4.6771,
+          "Havana Suzy": 5.46,
+          "Thats So True": 6.635,
+          "Shrewd Knows": 5.5814,
+          "Rising Buttercup": 3.2779,
+          "Bells Meadow": 3.4629
+        },
+        "base_scores_trace": {
+          "Brosna Suzy": 3.3571,
+          "Havana Suzy": 1.93,
+          "Thats So True": 2.87,
+          "Shrewd Knows": 1.3814,
+          "Rising Buttercup": 3.0929,
+          "Bells Meadow": 2.6229
+        },
+        "bda_modes": {
+          "Brosna Suzy": "STD_NO_DATE_CUR",
+          "Havana Suzy": "STD_NO_DATE_CUR",
+          "Thats So True": "STD_NO_DATE_CUR",
+          "Shrewd Knows": "STD_NO_DATE_CUR",
+          "Rising Buttercup": "STD_NO_DATE_CUR",
+          "Bells Meadow": "STD_NO_DATE_CUR"
+        },
+        "ssb_active": {
+          "Brosna Suzy": false,
+          "Havana Suzy": true,
+          "Thats So True": true,
+          "Shrewd Knows": true,
+          "Rising Buttercup": false,
+          "Bells Meadow": false
+        },
+        "neg_start_L1": {
+          "Brosna Suzy": false,
+          "Havana Suzy": false,
+          "Thats So True": false,
+          "Shrewd Knows": false,
+          "Rising Buttercup": false,
+          "Bells Meadow": true
+        },
+        "styles": {
+          "Brosna Suzy": "mid",
+          "Havana Suzy": "mid",
+          "Thats So True": "mid",
+          "Shrewd Knows": "mid",
+          "Rising Buttercup": "mid",
+          "Bells Meadow": "mid"
+        },
+        "trouble_cap_totals": {
+          "Brosna Suzy": 0.0,
+          "Havana Suzy": -0.05,
+          "Thats So True": -0.015,
+          "Shrewd Knows": -0.05,
+          "Rising Buttercup": -1.015,
+          "Bells Meadow": -1.26
+        },
+        "bonus_cap_totals": {
+          "Brosna Suzy": 1.32,
+          "Havana Suzy": 1.88,
+          "Thats So True": 2.08,
+          "Shrewd Knows": 3.8,
+          "Rising Buttercup": 1.2,
+          "Bells Meadow": 0.4
+        },
+        "trace_hash": "f82d533454e063db021c8cf90f4310c2914860ea535fef5a6fae2743964f916e"
+      }
+    }
+  ],
+  "version": "1.3.0"
+}

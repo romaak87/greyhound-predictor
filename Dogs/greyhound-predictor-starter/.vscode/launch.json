@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run predictor",
+      "type": "python",
+      "request": "launch",
+      "module": "greyhound_predictor.cli",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "args": ["examples/card.sample.json", "--pretty"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
